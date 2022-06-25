@@ -1,0 +1,4 @@
+ICS201009
+
+ICS201009 means "International Chronostratigraphic Chart (2010)", which has 1624 triples. Covers the geological duration from 0 to 4600 Ma. 
+Cited from (International Commission on Stratigraphy/Original version Copyright © 2010 International Commission on Stratigraphy)

@@ -1,0 +1,5 @@
+GTS2016
+
+GTS2016 means "  A concise geologic time scale: 2016", which has 1434 triples. Covers the geological duration from 0 to 541 Ma. Includes 159 Geochronologic era in total. 
+Cited from (Ogg, J. G., Ogg, G. M., & Gradstein, F. M. (2016). A concise geologic time scale: 2016. Elsevier.)
+

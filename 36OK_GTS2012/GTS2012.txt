@@ -1,0 +1,5 @@
+GTS2012
+
+GTS2012 means " The geologic time scale 2012", which has 1371 triples. Covers the geological duration from 0 to 541 Ma. Includes 152 Geochronologic era in total. 
+Cited from (Gradstein, F. M., Ogg, J. G., Schmitz, M. B., & Ogg, G. M. (Eds.). (2012). The geologic time scale 2012. elsevier.)
+

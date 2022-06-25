@@ -1,0 +1,4 @@
+ICS201808
+
+ICS201808 means "International Chronostratigraphic Chart (2018/08)", which has 1624 triples. Covers the geological duration from 0 to 4600 Ma. 
+Cited from (International Commission on Stratigraphy/Original version Copyright © 2018 International Commission on Stratigraphy)

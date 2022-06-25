@@ -1,0 +1,1848 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix gts2020: <https://www.ddeworld.org/ddeKG/base/utf/gts2020#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+gts2020:GTS2020
+  rdf:type utf:reference_system ;
+  skos:prefLabel "Geologic time scale 2020"@en ;
+  dc:contributor "All records are constructed by Gradstein, F. M., Ogg, J. G., Schmitz, M. D., & Ogg, G. M. (Eds.). (2020). Geologic time scale 2020. Elsevier."@en ;
+.
+
+gts2020:Phanerozoic
+  skos:prefLabel "Phanerozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 538.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+.
+  
+gts2020:Paleozoic
+  skos:prefLabel "Paleozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 251.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 538.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Phanerozoic;
+.
+  
+gts2020:Mesozoic
+  skos:prefLabel "Mesozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 66.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 251.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Phanerozoic;
+.
+  
+gts2020:Cenozoic
+  skos:prefLabel "Cenozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 66.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Phanerozoic;
+.
+  
+gts2020:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 486.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 538.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleozoic;
+.
+  
+gts2020:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 443.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 486.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleozoic;
+.
+  
+gts2020:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 419.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 443.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleozoic;
+.
+  
+gts2020:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 359.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 419.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleozoic;
+.
+  
+gts2020:Carboniferous
+  skos:prefLabel "Carboniferous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 298.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 359.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleozoic;
+.
+  
+gts2020:Permian
+  skos:prefLabel "Permian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 251.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 298.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleozoic;
+.
+  
+gts2020:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 201.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 251.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Mesozoic;
+.
+  
+gts2020:Juiassic
+  skos:prefLabel "Juiassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 143.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 201.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Mesozoic;
+.
+  
+gts2020:Cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 66.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 143.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Mesozoic;
+.
+  
+gts2020:Paleogene
+  skos:prefLabel "Paleogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 23.04;
+  utf:start_uncertainty 0.0 ;
+  utf:end 66.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cenozoic;
+.
+  
+gts2020:Neogene
+  skos:prefLabel "Neogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2.58;
+  utf:start_uncertainty 0.0 ;
+  utf:end 23.04 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cenozoic;
+.
+  
+gts2020:Quaternary
+  skos:prefLabel "Quaternary"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2.58 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cenozoic;
+.
+  
+gts2020:Terreneuvian
+  skos:prefLabel "Terreneuvian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 521.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 538.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cambrian;
+.
+  
+gts2020:Epoch2
+  skos:prefLabel "Epoch2"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 509.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 521.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cambrian;
+.
+  
+gts2020:Miaolingian
+  skos:prefLabel "Miaolingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 497.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 509.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cambrian;
+.
+  
+gts2020:Furongian
+  skos:prefLabel "Furongian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 486.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 497.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cambrian;
+.
+  
+gts2020:EarlyOrdovician
+  skos:prefLabel "EarlyOrdovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 471.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 486.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Ordovician;
+.
+  
+gts2020:MiddleOrdovician
+  skos:prefLabel "MiddleOrdovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 458.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 471.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Ordovician;
+.
+  
+gts2020:LateOrdovician
+  skos:prefLabel "LateOrdovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 443.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 458.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Ordovician;
+.
+  
+gts2020:Llandovery
+  skos:prefLabel "Llandovery"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 432.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 443.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Silurian;
+.
+  
+gts2020:Wenlock
+  skos:prefLabel "Wenlock"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 426.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 432.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Silurian;
+.
+  
+gts2020:Ludlow
+  skos:prefLabel "Ludlow"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 422.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 426.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Silurian;
+.
+  
+gts2020:Pridoli
+  skos:prefLabel "Pridoli"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 419.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 422.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Silurian;
+.
+  
+gts2020:EarlyDevonian
+  skos:prefLabel "EarlyDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 394.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 419.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Devonian;
+.
+  
+gts2020:MiddleDevonian
+  skos:prefLabel "MiddleDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 378.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 394.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Devonian;
+.
+  
+gts2020:LateDevonian
+  skos:prefLabel "LateDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 359.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 378.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Devonian;
+.
+  
+gts2020:Mississippian
+  skos:prefLabel "Mississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 323.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 359.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Carboniferous;
+.
+  
+gts2020:Pennsylvanian
+  skos:prefLabel "Pennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 298.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 323.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Carboniferous;
+.
+  
+gts2020:Cisuralian
+  skos:prefLabel "Cisuralian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 274.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 298.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Permian;
+.
+  
+gts2020:Guadalupian
+  skos:prefLabel "Guadalupian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 259.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 274.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Permian;
+.
+  
+gts2020:Lopingian
+  skos:prefLabel "Lopingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 251.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 259.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Permian;
+.
+  
+gts2020:EarlyTriassic
+  skos:prefLabel "EarlyTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 246.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 251.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Triassic;
+.
+  
+gts2020:MiddleTriassic
+  skos:prefLabel "MiddleTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 237.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 246.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Triassic;
+.
+  
+gts2020:LateTriassic
+  skos:prefLabel "LateTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 201.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 237.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Triassic;
+.
+  
+gts2020:EarlyJuiassic
+  skos:prefLabel "EarlyJuiassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 174.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 201.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Juiassic;
+.
+  
+gts2020:MiddleJuiassic
+  skos:prefLabel "MiddleJuiassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 161.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 174.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Juiassic;
+.
+  
+gts2020:LateJuiassic
+  skos:prefLabel "LateJuiassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 143.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 161.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Juiassic;
+.
+  
+gts2020:EarlyCretaceous
+  skos:prefLabel "EarlyCretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 100.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 143.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cretaceous;
+.
+  
+gts2020:LateCretaceous
+  skos:prefLabel "LateCretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 66.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 100.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cretaceous;
+.
+  
+gts2020:Paleocene
+  skos:prefLabel "Paleocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 56.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 66.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleogene;
+.
+  
+gts2020:Eocene
+  skos:prefLabel "Eocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 33.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 56.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleogene;
+.
+  
+gts2020:Oligocene
+  skos:prefLabel "Oligocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 23.04;
+  utf:start_uncertainty 0.0 ;
+  utf:end 33.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleogene;
+.
+  
+gts2020:Miocene
+  skos:prefLabel "Miocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 5.33;
+  utf:start_uncertainty 0.0 ;
+  utf:end 23.04 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Neogene;
+.
+  
+gts2020:Pliocene
+  skos:prefLabel "Pliocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2.58;
+  utf:start_uncertainty 0.0 ;
+  utf:end 5.33 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Neogene;
+.
+  
+gts2020:Pleistocene
+  skos:prefLabel "Pleistocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2.58 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Quaternary;
+.
+  
+gts2020:Holocene
+  skos:prefLabel "Holocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Quaternary;
+.
+  
+gts2020:EMississippian
+  skos:prefLabel "EMississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 346.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 359.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Mississippian;
+.
+  
+gts2020:MMississippian
+  skos:prefLabel "MMississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 330.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 346.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Mississippian;
+.
+  
+gts2020:LMississippian
+  skos:prefLabel "LMississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 323.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 330.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Mississippian;
+.
+  
+gts2020:EPennsylvanian
+  skos:prefLabel "EPennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 315.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 323.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Pennsylvanian;
+.
+  
+gts2020:MPennsylvanian
+  skos:prefLabel "MPennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 307.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 315.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Pennsylvanian;
+.
+  
+gts2020:LPennsylvanian
+  skos:prefLabel "LPennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 298.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 307.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Pennsylvanian;
+.
+  
+gts2020:Fortunian
+  skos:prefLabel "Fortunian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 529.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 538.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Terreneuvian;
+.
+  
+gts2020:Age2
+  skos:prefLabel "Age2"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 521.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 529.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Terreneuvian;
+.
+  
+gts2020:Age3
+  skos:prefLabel "Age3"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 514.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 521.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Epoch2;
+.
+  
+gts2020:Age4
+  skos:prefLabel "Age4"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 509.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 514.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Epoch2;
+.
+  
+gts2020:Wuliuan
+  skos:prefLabel "Wuliuan"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 504.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 509.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miaolingian;
+.
+  
+gts2020:Drumian
+  skos:prefLabel "Drumian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 500.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 504.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miaolingian;
+.
+  
+gts2020:Guzhanggian
+  skos:prefLabel "Guzhanggian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 497.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 500.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miaolingian;
+.
+  
+gts2020:Paibian
+  skos:prefLabel "Paibian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 494.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 497.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Furongian;
+.
+  
+gts2020:Jiangshannian
+  skos:prefLabel "Jiangshannian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 491.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 494.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Furongian;
+.
+  
+gts2020:Age10
+  skos:prefLabel "Age10"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 486.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 491.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Furongian;
+.
+  
+gts2020:Tremadocian
+  skos:prefLabel "Tremadocian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 477.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 486.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyOrdovician;
+.
+  
+gts2020:Floian
+  skos:prefLabel "Floian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 471.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 477.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyOrdovician;
+.
+  
+gts2020:Dapingian
+  skos:prefLabel "Dapingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 469.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 471.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleOrdovician;
+.
+  
+gts2020:Darriwilian
+  skos:prefLabel "Darriwilian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 458.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 469.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleOrdovician;
+.
+  
+gts2020:Sandbian
+  skos:prefLabel "Sandbian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 452.8;
+  utf:start_uncertainty 0.0 ;
+  utf:end 458.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateOrdovician;
+.
+  
+gts2020:Katian
+  skos:prefLabel "Katian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 445.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 452.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateOrdovician;
+.
+  
+gts2020:Hirnantian
+  skos:prefLabel "Hirnantian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 443.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 445.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateOrdovician;
+.
+  
+gts2020:Rhuddanian
+  skos:prefLabel "Rhuddanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 440.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 443.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Llandovery;
+.
+  
+gts2020:Aeronian
+  skos:prefLabel "Aeronian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 438.6;
+  utf:start_uncertainty 0.0 ;
+  utf:end 440.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Llandovery;
+.
+  
+gts2020:Telychian
+  skos:prefLabel "Telychian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 432.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 438.6 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Llandovery;
+.
+  
+gts2020:Sheinwoodian
+  skos:prefLabel "Sheinwoodian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 430.6;
+  utf:start_uncertainty 0.0 ;
+  utf:end 432.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Wenlock;
+.
+  
+gts2020:Homerian
+  skos:prefLabel "Homerian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 426.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 430.6 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Wenlock;
+.
+  
+gts2020:Gorstian
+  skos:prefLabel "Gorstian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 425.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 426.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Ludlow;
+.
+  
+gts2020:Ludfordian
+  skos:prefLabel "Ludfordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 422.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 425.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Ludlow;
+.
+  
+gts2020:Lochkovian
+  skos:prefLabel "Lochkovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 412.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 419.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyDevonian;
+.
+  
+gts2020:Pragian
+  skos:prefLabel "Pragian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 410.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 412.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyDevonian;
+.
+  
+gts2020:Emsian
+  skos:prefLabel "Emsian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 394.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 410.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyDevonian;
+.
+  
+gts2020:Eifelian
+  skos:prefLabel "Eifelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 385.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 394.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleDevonian;
+.
+  
+gts2020:Givetian
+  skos:prefLabel "Givetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 378.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 385.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleDevonian;
+.
+  
+gts2020:Frasnian
+  skos:prefLabel "Frasnian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 371.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 378.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateDevonian;
+.
+  
+gts2020:Famennian
+  skos:prefLabel "Famennian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 359.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 371.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateDevonian;
+.
+  
+gts2020:Tournaisian
+  skos:prefLabel "Tournaisian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 346.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 359.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EMississippian;
+.
+  
+gts2020:Visean
+  skos:prefLabel "Visean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 330.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 346.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MMississippian;
+.
+  
+gts2020:Serpukhovian
+  skos:prefLabel "Serpukhovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 323.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 330.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LMississippian;
+.
+  
+gts2020:Bashkirian
+  skos:prefLabel "Bashkirian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 315.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 323.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EPennsylvanian;
+.
+  
+gts2020:Moscovian
+  skos:prefLabel "Moscovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 307.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 315.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MPennsylvanian;
+.
+  
+gts2020:Kasimovian
+  skos:prefLabel "Kasimovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 303.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 307.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LPennsylvanian;
+.
+  
+gts2020:Gzhelian
+  skos:prefLabel "Gzhelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 298.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 303.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LPennsylvanian;
+.
+  
+gts2020:Asselian
+  skos:prefLabel "Asselian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 293.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 298.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cisuralian;
+.
+  
+gts2020:Sakmarian
+  skos:prefLabel "Sakmarian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 290.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 293.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cisuralian;
+.
+  
+gts2020:Artinskian
+  skos:prefLabel "Artinskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 283.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 290.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cisuralian;
+.
+  
+gts2020:Kungurian
+  skos:prefLabel "Kungurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 274.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 283.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Cisuralian;
+.
+  
+gts2020:Roadian
+  skos:prefLabel "Roadian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 269.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 274.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Guadalupian;
+.
+  
+gts2020:Wordian
+  skos:prefLabel "Wordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 264.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 269.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Guadalupian;
+.
+  
+gts2020:Capitanian
+  skos:prefLabel "Capitanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 259.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 264.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Guadalupian;
+.
+  
+gts2020:Wuchiapingian
+  skos:prefLabel "Wuchiapingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 254.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 259.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Lopingian;
+.
+  
+gts2020:Changhsingian
+  skos:prefLabel "Changhsingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 251.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 254.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Lopingian;
+.
+  
+gts2020:Induan
+  skos:prefLabel "Induan"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 249.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 251.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyTriassic;
+.
+  
+gts2020:Olenekian
+  skos:prefLabel "Olenekian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 246.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 249.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyTriassic;
+.
+  
+gts2020:Anisian
+  skos:prefLabel "Anisian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 241.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 246.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleTriassic;
+.
+  
+gts2020:Ladinian
+  skos:prefLabel "Ladinian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 237.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 241.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleTriassic;
+.
+  
+gts2020:Carnian
+  skos:prefLabel "Carnian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 227.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 237.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateTriassic;
+.
+  
+gts2020:Norian
+  skos:prefLabel "Norian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 205.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 227.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateTriassic;
+.
+  
+gts2020:Rhaetian
+  skos:prefLabel "Rhaetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 201.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 205.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateTriassic;
+.
+  
+gts2020:Hettangian
+  skos:prefLabel "Hettangian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 199.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 201.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyJuiassic;
+.
+  
+gts2020:Singemurian
+  skos:prefLabel "Singemurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 192.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 199.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyJuiassic;
+.
+  
+gts2020:Pliensbachian
+  skos:prefLabel "Pliensbachian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 184.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 192.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyJuiassic;
+.
+  
+gts2020:Toarcian
+  skos:prefLabel "Toarcian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 174.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 184.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyJuiassic;
+.
+  
+gts2020:Aalenian
+  skos:prefLabel "Aalenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 170.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 174.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleJuiassic;
+.
+  
+gts2020:Bajocian
+  skos:prefLabel "Bajocian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 168.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 170.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleJuiassic;
+.
+  
+gts2020:Bathonian
+  skos:prefLabel "Bathonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 165.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 168.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleJuiassic;
+.
+  
+gts2020:Callovian
+  skos:prefLabel "Callovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 161.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 165.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:MiddleJuiassic;
+.
+  
+gts2020:Oxfordian
+  skos:prefLabel "Oxfordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 154.8;
+  utf:start_uncertainty 0.0 ;
+  utf:end 161.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateJuiassic;
+.
+  
+gts2020:Kimmeridgian
+  skos:prefLabel "Kimmeridgian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 149.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 154.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateJuiassic;
+.
+  
+gts2020:Tithonian
+  skos:prefLabel "Tithonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 143.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 149.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateJuiassic;
+.
+  
+gts2020:Berriasian
+  skos:prefLabel "Berriasian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 137.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 143.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyCretaceous;
+.
+  
+gts2020:Valanginian
+  skos:prefLabel "Valanginian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 132.6;
+  utf:start_uncertainty 0.0 ;
+  utf:end 137.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyCretaceous;
+.
+  
+gts2020:Hauterivian
+  skos:prefLabel "Hauterivian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 126.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 132.6 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyCretaceous;
+.
+  
+gts2020:Barremian
+  skos:prefLabel "Barremian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 121.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 126.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyCretaceous;
+.
+  
+gts2020:Aptian
+  skos:prefLabel "Aptian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 113.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 121.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyCretaceous;
+.
+  
+gts2020:Albian
+  skos:prefLabel "Albian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 100.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 113.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:EarlyCretaceous;
+.
+  
+gts2020:Cenomanian
+  skos:prefLabel "Cenomanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 93.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 100.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateCretaceous;
+.
+  
+gts2020:Turonian
+  skos:prefLabel "Turonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 89.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 93.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateCretaceous;
+.
+  
+gts2020:Coniacian
+  skos:prefLabel "Coniacian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 85.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 89.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateCretaceous;
+.
+  
+gts2020:Santonian
+  skos:prefLabel "Santonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 83.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 85.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateCretaceous;
+.
+  
+gts2020:Campanian
+  skos:prefLabel "Campanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 72.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 83.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateCretaceous;
+.
+  
+gts2020:Maastrichtian
+  skos:prefLabel "Maastrichtian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 66.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 72.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:LateCretaceous;
+.
+  
+gts2020:Danian
+  skos:prefLabel "Danian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 61.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 66.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleocene;
+.
+  
+gts2020:Selandian
+  skos:prefLabel "Selandian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 59.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 61.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleocene;
+.
+  
+gts2020:Thanetian
+  skos:prefLabel "Thanetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 56.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 59.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Paleocene;
+.
+  
+gts2020:Ypresian
+  skos:prefLabel "Ypresian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 48.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 56.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Eocene;
+.
+  
+gts2020:Lutetian
+  skos:prefLabel "Lutetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 41.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 48.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Eocene;
+.
+  
+gts2020:Bartonian
+  skos:prefLabel "Bartonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 37.7;
+  utf:start_uncertainty 0.0 ;
+  utf:end 41.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Eocene;
+.
+  
+gts2020:Priabonian
+  skos:prefLabel "Priabonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 33.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 37.7 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Eocene;
+.
+  
+gts2020:Rupelian
+  skos:prefLabel "Rupelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 27.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 33.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Oligocene;
+.
+  
+gts2020:Chattian
+  skos:prefLabel "Chattian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 23.04;
+  utf:start_uncertainty 0.0 ;
+  utf:end 27.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Oligocene;
+.
+  
+gts2020:Aquitanian
+  skos:prefLabel "Aquitanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 20.45;
+  utf:start_uncertainty 0.0 ;
+  utf:end 23.04 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miocene;
+.
+  
+gts2020:Burdigalian
+  skos:prefLabel "Burdigalian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 15.99;
+  utf:start_uncertainty 0.0 ;
+  utf:end 20.45 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miocene;
+.
+  
+gts2020:Langhian
+  skos:prefLabel "Langhian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 13.82;
+  utf:start_uncertainty 0.0 ;
+  utf:end 15.99 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miocene;
+.
+  
+gts2020:Serravallian
+  skos:prefLabel "Serravallian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 11.63;
+  utf:start_uncertainty 0.0 ;
+  utf:end 13.82 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miocene;
+.
+  
+gts2020:Tortonian
+  skos:prefLabel "Tortonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 7.25;
+  utf:start_uncertainty 0.0 ;
+  utf:end 11.63 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miocene;
+.
+  
+gts2020:Messinian
+  skos:prefLabel "Messinian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 5.33;
+  utf:start_uncertainty 0.0 ;
+  utf:end 7.25 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Miocene;
+.
+  
+gts2020:Zanclean
+  skos:prefLabel "Zanclean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 3.6;
+  utf:start_uncertainty 0.0 ;
+  utf:end 5.33 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Pliocene;
+.
+  
+gts2020:Piacenzian
+  skos:prefLabel "Piacenzian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2.58;
+  utf:start_uncertainty 0.0 ;
+  utf:end 3.6 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Pliocene;
+.
+  
+gts2020:Gelasian
+  skos:prefLabel "Gelasian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1.81;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2.58 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Pleistocene;
+.
+  
+gts2020:Calabrain
+  skos:prefLabel "Calabrain"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.78;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1.81 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Pleistocene;
+.
+  
+gts2020:5stages
+  skos:prefLabel "5stages"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.78 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system gts2020:GTS2020 ;
+  utf:partOf gts2020:Pleistocene;
+.
+  

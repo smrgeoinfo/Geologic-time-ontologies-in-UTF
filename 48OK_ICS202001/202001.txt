@@ -1,0 +1,4 @@
+ICS202001
+
+ICS202001 means "International Chronostratigraphic Chart (2020)", which has 1624 triples. Covers the geological duration from 0 to 4600 Ma. 
+Cited from (International Commission on Stratigraphy/Original version Copyright © 2020 International Commission on Stratigraphy)

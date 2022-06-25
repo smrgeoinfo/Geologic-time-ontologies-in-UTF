@@ -1,0 +1,4 @@
+GTS2020 
+
+GTS2020 means"A geologic time scale 2020",which has 1380 triples.Covers the geological duration from 0 to 542 Ma. Includes 153 Geochronologic era in total. 
+Cited from (Gradstein, F. M., Ogg, J. G., Schmitz, M. D., & Ogg, G. M. (Eds.). (2020). Geologic time scale 2020. Elsevier.)

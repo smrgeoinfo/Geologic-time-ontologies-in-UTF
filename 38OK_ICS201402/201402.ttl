@@ -1,0 +1,2124 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix isc201402: <https://www.ddeworld.org/ddeKG/base/utf/isc201402#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+isc201402:ICS201402
+  rdf:type utf:reference_system ;
+  skos:prefLabel "International Chronostratigraphic Chart (2014/02)"@en ;
+ dc:contributor "Chinese and Japanese preferred labels from SKOS by Xiaogang Ma, adopted from Asian Multilingual Thesaurus of Geosciences."@en ;
+  dc:contributor "International Commission on Stratigraphy"@en ;
+  dc:contributor "OneGeology Europe preferred labels merged in by S.M. Richard."@en ;
+  dc:contributor "S M Richard"@en ;
+  dc:creator "Simon J D COX, CSIRO"@en ;
+  dc:description "RDF/OWL representation of the 2014-02 edition of the International Chronostratigraphic Chart from the International Commission on Stratigraphy."@en ;
+  dc:rights "Original version Copyright © 2014 International Commission on Stratigraphy"@en ;
+  dc:rights "RDF version Copyright © 2014 CSIRO, Arizona Geological Survey, IUGS"@en ;
+  dc:rights "This Ontology is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0"@en ;
+  dc:source "Cohen, K.M., Finney, S.C., Gibbard, P.L. & Fan, J.-X. (2013; updated) The ICS International Chronostratigraphic Chart. Episodes 36: 199-204."@en ;
+  dc:source "International Chronostratigraphic Chart 2014"@en ;
+  dc:title "International Chronostratigraphic Chart (2014)"@en ;#引用geotimeversion
+.
+
+
+isc201402:Precambrian
+  skos:prefLabel "Precambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 4600;
+  utf:start_uncertainty 0.0 ;
+  utf:end 541.0 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+.
+  
+isc201402:Phanerozoic
+  skos:prefLabel "Phanerozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 541.0;
+  utf:start_uncertainty 1.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+.
+  
+isc201402:Hadean
+  skos:prefLabel "Hadean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 4600;
+  utf:start_uncertainty 0.0 ;
+  utf:end 4000 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Precambrian;
+.
+  
+isc201402:Archean
+  skos:prefLabel "Archean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 4000;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2500 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Precambrian;
+.
+  
+isc201402:Eoarchean
+  skos:prefLabel "Eoarchean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 4000;
+  utf:start_uncertainty 0.0 ;
+  utf:end 3600 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Archean;
+.
+  
+isc201402:Paleoarchean
+  skos:prefLabel "Paleoarchean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 3600;
+  utf:start_uncertainty 0.0 ;
+  utf:end 3200 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Archean;
+.
+  
+isc201402:Mesoarchean
+  skos:prefLabel "Mesoarchean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 3200;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2800 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Archean;
+.
+  
+isc201402:Neoarchean
+  skos:prefLabel "Neoarchean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2800;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2500 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Archean;
+.
+  
+isc201402:Proterozoic
+  skos:prefLabel "Proterozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2500;
+  utf:start_uncertainty 0.0 ;
+  utf:end 541.0 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Precambrian;
+.
+  
+isc201402:Paleoproterozoic
+  skos:prefLabel "Paleoproterozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2500;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1600 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Proterozoic;
+.
+  
+isc201402:Siderian
+  skos:prefLabel "Siderian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2500;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2300 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleoproterozoic;
+.
+  
+isc201402:Rhyacian
+  skos:prefLabel "Rhyacian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2300;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2050 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleoproterozoic;
+.
+  
+isc201402:Orosirian
+  skos:prefLabel "Orosirian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2050;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1800 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleoproterozoic;
+.
+  
+isc201402:Statherian
+  skos:prefLabel "Statherian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1800;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1600 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleoproterozoic;
+.
+  
+isc201402:Mesoproterozoic
+  skos:prefLabel "Mesoproterozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1600;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1000 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Proterozoic;
+.
+  
+isc201402:Calymmian
+  skos:prefLabel "Calymmian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1600;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1400 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mesoproterozoic;
+.
+  
+isc201402:Ectasian
+  skos:prefLabel "Ectasian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1400;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1200 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mesoproterozoic;
+.
+  
+isc201402:Stenian
+  skos:prefLabel "Stenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1200;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1000 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mesoproterozoic;
+.
+  
+isc201402:Neoproterozoic
+  skos:prefLabel "Neoproterozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1000;
+  utf:start_uncertainty 0.0 ;
+  utf:end 541.0 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Proterozoic;
+.
+  
+isc201402:Tonian
+  skos:prefLabel "Tonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1000;
+  utf:start_uncertainty 0.0 ;
+  utf:end 850 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Neoproterozoic;
+.
+  
+isc201402:Cryogenian
+  skos:prefLabel "Cryogenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 850;
+  utf:start_uncertainty 0.0 ;
+  utf:end 635 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Neoproterozoic;
+.
+  
+isc201402:Ediacaran
+  skos:prefLabel "Ediacaran"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 635;
+  utf:start_uncertainty 0.0 ;
+  utf:end 541.0 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Neoproterozoic;
+.
+  
+isc201402:Paleozoic
+  skos:prefLabel "Paleozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 541.0;
+  utf:start_uncertainty 1.0 ;
+  utf:end 252.17 ;
+  utf:end_uncertainty 0.06;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Phanerozoic;
+.
+  
+isc201402:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 541.0;
+  utf:start_uncertainty 1.0 ;
+  utf:end 485.4 ;
+  utf:end_uncertainty 1.9;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleozoic;
+.
+  
+isc201402:Terreneuvian
+  skos:prefLabel "Terreneuvian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 541.0;
+  utf:start_uncertainty 1.0 ;
+  utf:end 521 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cambrian;
+.
+  
+isc201402:Fortunian
+  skos:prefLabel "Fortunian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 541.0;
+  utf:start_uncertainty 1.0 ;
+  utf:end 529 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Terreneuvian;
+.
+  
+isc201402:CambrianStage2
+  skos:prefLabel "CambrianStage2"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 529;
+  utf:start_uncertainty 0.0 ;
+  utf:end 521 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Terreneuvian;
+.
+  
+isc201402:CambrianSeries2
+  skos:prefLabel "CambrianSeries2"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 521;
+  utf:start_uncertainty 0.0 ;
+  utf:end 514 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cambrian;
+.
+  
+isc201402:CambrianStage3
+  skos:prefLabel "CambrianStage3"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 521;
+  utf:start_uncertainty 0.0 ;
+  utf:end 514 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:CambrianSeries2;
+.
+  
+isc201402:CambrianStage4
+  skos:prefLabel "CambrianStage4"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 514;
+  utf:start_uncertainty 0.0 ;
+  utf:end 509 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:CambrianSeries2;
+.
+  
+isc201402:CambrianSeries3
+  skos:prefLabel "CambrianSeries3"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 509;
+  utf:start_uncertainty 0.0 ;
+  utf:end 497 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cambrian;
+.
+  
+isc201402:CambrianStage5
+  skos:prefLabel "CambrianStage5"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 509;
+  utf:start_uncertainty 0.0 ;
+  utf:end 504.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:CambrianSeries3;
+.
+  
+isc201402:Drumian
+  skos:prefLabel "Drumian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 504.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 500.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:CambrianSeries3;
+.
+  
+isc201402:Guzhangian
+  skos:prefLabel "Guzhangian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 500.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 497 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:CambrianSeries3;
+.
+  
+isc201402:Furongian
+  skos:prefLabel "Furongian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 497;
+  utf:start_uncertainty 0.0 ;
+  utf:end 485.4 ;
+  utf:end_uncertainty 1.9;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cambrian;
+.
+  
+isc201402:Paibian
+  skos:prefLabel "Paibian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 497;
+  utf:start_uncertainty 0.0 ;
+  utf:end 494 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Furongian;
+.
+  
+isc201402:Jiangshanian
+  skos:prefLabel "Jiangshanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 494;
+  utf:start_uncertainty 0.0 ;
+  utf:end 489.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Furongian;
+.
+  
+isc201402:CambrianStage10
+  skos:prefLabel "CambrianStage10"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 489.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 485.4 ;
+  utf:end_uncertainty 1.9;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Furongian;
+.
+  
+isc201402:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 485.4;
+  utf:start_uncertainty 1.9 ;
+  utf:end 443.8 ;
+  utf:end_uncertainty 1.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleozoic;
+.
+  
+isc201402:LowerOrdovician
+  skos:prefLabel "LowerOrdovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 485.4;
+  utf:start_uncertainty 1.9 ;
+  utf:end 470.0 ;
+  utf:end_uncertainty 1.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Ordovician;
+.
+  
+isc201402:Tremadocian
+  skos:prefLabel "Tremadocian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 485.4;
+  utf:start_uncertainty 1.9 ;
+  utf:end 477.7 ;
+  utf:end_uncertainty 1.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerOrdovician;
+.
+  
+isc201402:Floian
+  skos:prefLabel "Floian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 477.7;
+  utf:start_uncertainty 1.4 ;
+  utf:end 470.0 ;
+  utf:end_uncertainty 1.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerOrdovician;
+.
+  
+isc201402:MiddleOrdovician
+  skos:prefLabel "MiddleOrdovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 470.0;
+  utf:start_uncertainty 1.4 ;
+  utf:end 458.4 ;
+  utf:end_uncertainty 0.9;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Ordovician;
+.
+  
+isc201402:Dapingian
+  skos:prefLabel "Dapingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 470.0;
+  utf:start_uncertainty 1.4 ;
+  utf:end 467.3 ;
+  utf:end_uncertainty 1.1;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleOrdovician;
+.
+  
+isc201402:Darriwilian
+  skos:prefLabel "Darriwilian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 467.3;
+  utf:start_uncertainty 1.1 ;
+  utf:end 458.4 ;
+  utf:end_uncertainty 0.9;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleOrdovician;
+.
+  
+isc201402:UpperOrdovician
+  skos:prefLabel "UpperOrdovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 458.4;
+  utf:start_uncertainty 0.9 ;
+  utf:end 443.8 ;
+  utf:end_uncertainty 1.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Ordovician;
+.
+  
+isc201402:Sandbian
+  skos:prefLabel "Sandbian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 458.4;
+  utf:start_uncertainty 0.9 ;
+  utf:end 453.0 ;
+  utf:end_uncertainty 0.7;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperOrdovician;
+.
+  
+isc201402:Katian
+  skos:prefLabel "Katian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 453.0;
+  utf:start_uncertainty 0.7 ;
+  utf:end 445.2 ;
+  utf:end_uncertainty 1.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperOrdovician;
+.
+  
+isc201402:Hirnantian
+  skos:prefLabel "Hirnantian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 445.2;
+  utf:start_uncertainty 1.4 ;
+  utf:end 443.8 ;
+  utf:end_uncertainty 1.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperOrdovician;
+.
+  
+isc201402:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 443.8;
+  utf:start_uncertainty 1.5 ;
+  utf:end 419.2 ;
+  utf:end_uncertainty 3.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleozoic;
+.
+  
+isc201402:Llandovery
+  skos:prefLabel "Llandovery"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 443.8;
+  utf:start_uncertainty 1.5 ;
+  utf:end 433.4 ;
+  utf:end_uncertainty 0.8;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Silurian;
+.
+  
+isc201402:Rhuddanian
+  skos:prefLabel "Rhuddanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 443.8;
+  utf:start_uncertainty 1.5 ;
+  utf:end 440.8 ;
+  utf:end_uncertainty 1.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Llandovery;
+.
+  
+isc201402:Aeronian
+  skos:prefLabel "Aeronian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 440.8;
+  utf:start_uncertainty 1.2 ;
+  utf:end 438.5 ;
+  utf:end_uncertainty 1.1;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Llandovery;
+.
+  
+isc201402:Telychian
+  skos:prefLabel "Telychian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 438.5;
+  utf:start_uncertainty 1.1 ;
+  utf:end 433.4 ;
+  utf:end_uncertainty 0.8;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Llandovery;
+.
+  
+isc201402:Wenlock
+  skos:prefLabel "Wenlock"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 433.4;
+  utf:start_uncertainty 0.8 ;
+  utf:end 427.4 ;
+  utf:end_uncertainty 0.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Silurian;
+.
+  
+isc201402:Sheinwoodian
+  skos:prefLabel "Sheinwoodian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 433.4;
+  utf:start_uncertainty 0.8 ;
+  utf:end 430.5 ;
+  utf:end_uncertainty 0.7;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Wenlock;
+.
+  
+isc201402:Homerian
+  skos:prefLabel "Homerian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 430.5;
+  utf:start_uncertainty 0.7 ;
+  utf:end 427.4 ;
+  utf:end_uncertainty 0.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Wenlock;
+.
+  
+isc201402:Ludlow
+  skos:prefLabel "Ludlow"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 427.4;
+  utf:start_uncertainty 0.5 ;
+  utf:end 423.0 ;
+  utf:end_uncertainty 2.3;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Silurian;
+.
+  
+isc201402:Gorstian
+  skos:prefLabel "Gorstian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 427.4;
+  utf:start_uncertainty 0.5 ;
+  utf:end 425.6 ;
+  utf:end_uncertainty 0.9;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Ludlow;
+.
+  
+isc201402:Ludfordian
+  skos:prefLabel "Ludfordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 425.6;
+  utf:start_uncertainty 0.9 ;
+  utf:end 423.0 ;
+  utf:end_uncertainty 2.3;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Ludlow;
+.
+  
+isc201402:Pridoli
+  skos:prefLabel "Pridoli"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 423.0;
+  utf:start_uncertainty 2.3 ;
+  utf:end 419.2 ;
+  utf:end_uncertainty 3.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Silurian;
+.
+  
+isc201402:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 419.2;
+  utf:start_uncertainty 3.2 ;
+  utf:end 358.9 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleozoic;
+.
+  
+isc201402:LowerDevonian
+  skos:prefLabel "LowerDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 419.2;
+  utf:start_uncertainty 3.2 ;
+  utf:end 393.3 ;
+  utf:end_uncertainty 1.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Devonian;
+.
+  
+isc201402:Lochkovian
+  skos:prefLabel "Lochkovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 419.2;
+  utf:start_uncertainty 3.2 ;
+  utf:end 410.8 ;
+  utf:end_uncertainty 2.8;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerDevonian;
+.
+  
+isc201402:Pragian
+  skos:prefLabel "Pragian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 410.8;
+  utf:start_uncertainty 2.8 ;
+  utf:end 407.6 ;
+  utf:end_uncertainty 2.6;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerDevonian;
+.
+  
+isc201402:Emsian
+  skos:prefLabel "Emsian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 407.6;
+  utf:start_uncertainty 2.6 ;
+  utf:end 393.3 ;
+  utf:end_uncertainty 1.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerDevonian;
+.
+  
+isc201402:MiddleDevonian
+  skos:prefLabel "MiddleDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 393.3;
+  utf:start_uncertainty 1.2 ;
+  utf:end 382.7 ;
+  utf:end_uncertainty 1.6;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Devonian;
+.
+  
+isc201402:Eifelian
+  skos:prefLabel "Eifelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 393.3;
+  utf:start_uncertainty 1.2 ;
+  utf:end 387.7 ;
+  utf:end_uncertainty 0.8;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleDevonian;
+.
+  
+isc201402:Givetian
+  skos:prefLabel "Givetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 387.7;
+  utf:start_uncertainty 0.8 ;
+  utf:end 382.7 ;
+  utf:end_uncertainty 1.6;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleDevonian;
+.
+  
+isc201402:UpperDevonian
+  skos:prefLabel "UpperDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 382.7;
+  utf:start_uncertainty 1.6 ;
+  utf:end 358.9 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Devonian;
+.
+  
+isc201402:Frasnian
+  skos:prefLabel "Frasnian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 382.7;
+  utf:start_uncertainty 1.6 ;
+  utf:end 372.2 ;
+  utf:end_uncertainty 1.6;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperDevonian;
+.
+  
+isc201402:Famennian
+  skos:prefLabel "Famennian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 372.2;
+  utf:start_uncertainty 1.6 ;
+  utf:end 358.9 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperDevonian;
+.
+  
+isc201402:Carboniferous
+  skos:prefLabel "Carboniferous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 358.9;
+  utf:start_uncertainty 0.4 ;
+  utf:end 298.9 ;
+  utf:end_uncertainty 0.15;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleozoic;
+.
+  
+isc201402:Mississippian
+  skos:prefLabel "Mississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 358.9;
+  utf:start_uncertainty 0.4 ;
+  utf:end 323.2 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Carboniferous;
+.
+  
+isc201402:LowerMississippian
+  skos:prefLabel "LowerMississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 358.9;
+  utf:start_uncertainty 0.4 ;
+  utf:end 346.7 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mississippian;
+.
+  
+isc201402:Tournaisian
+  skos:prefLabel "Tournaisian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 358.9;
+  utf:start_uncertainty 0.4 ;
+  utf:end 346.7 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerMississippian;
+.
+  
+isc201402:MiddleMississippian
+  skos:prefLabel "MiddleMississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 346.7;
+  utf:start_uncertainty 0.4 ;
+  utf:end 330.9 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mississippian;
+.
+  
+isc201402:Visean
+  skos:prefLabel "Visean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 346.7;
+  utf:start_uncertainty 0.4 ;
+  utf:end 330.9 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleMississippian;
+.
+  
+isc201402:UpperMississippian
+  skos:prefLabel "UpperMississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 330.9;
+  utf:start_uncertainty 0.2 ;
+  utf:end 298.9 ;
+  utf:end_uncertainty 0.15;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mississippian;
+.
+  
+isc201402:Serpukhovian
+  skos:prefLabel "Serpukhovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 330.9;
+  utf:start_uncertainty 0.2 ;
+  utf:end 323.2 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperMississippian;
+.
+  
+isc201402:Pennsylvanian
+  skos:prefLabel "Pennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 323.2;
+  utf:start_uncertainty 0.4 ;
+  utf:end 298.9 ;
+  utf:end_uncertainty 0.15;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Carboniferous;
+.
+  
+isc201402:LowerPennsylvanian
+  skos:prefLabel "LowerPennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 323.2;
+  utf:start_uncertainty 0.4 ;
+  utf:end 315.2 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pennsylvanian;
+.
+  
+isc201402:Bashkirian
+  skos:prefLabel "Bashkirian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 323.2;
+  utf:start_uncertainty 0.4 ;
+  utf:end 315.2 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerPennsylvanian;
+.
+  
+isc201402:MiddlePennsylvanian
+  skos:prefLabel "MiddlePennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 315.2;
+  utf:start_uncertainty 0.2 ;
+  utf:end 307.0 ;
+  utf:end_uncertainty 0.1;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pennsylvanian;
+.
+  
+isc201402:Moscovian
+  skos:prefLabel "Moscovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 315.2;
+  utf:start_uncertainty 0.2 ;
+  utf:end 307.0 ;
+  utf:end_uncertainty 0.1;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddlePennsylvanian;
+.
+  
+isc201402:UpperPennsylvanian
+  skos:prefLabel "UpperPennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 307.0;
+  utf:start_uncertainty 0.1 ;
+  utf:end 298.9 ;
+  utf:end_uncertainty 0.15;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pennsylvanian;
+.
+  
+isc201402:Kasimovian
+  skos:prefLabel "Kasimovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 307.0;
+  utf:start_uncertainty 0.1 ;
+  utf:end 303.7 ;
+  utf:end_uncertainty 0.1;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperPennsylvanian;
+.
+  
+isc201402:Gzhelian
+  skos:prefLabel "Gzhelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 303.7;
+  utf:start_uncertainty 0.1 ;
+  utf:end 298.9 ;
+  utf:end_uncertainty 0.15;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperPennsylvanian;
+.
+  
+isc201402:Permian
+  skos:prefLabel "Permian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 298.9;
+  utf:start_uncertainty 0.15 ;
+  utf:end 252.17 ;
+  utf:end_uncertainty 0.06;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleozoic;
+.
+  
+isc201402:Cisuralian
+  skos:prefLabel "Cisuralian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 298.9;
+  utf:start_uncertainty 0.15 ;
+  utf:end 272.3 ;
+  utf:end_uncertainty 0.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Permian;
+.
+  
+isc201402:Asselian
+  skos:prefLabel "Asselian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 298.9;
+  utf:start_uncertainty 0.15 ;
+  utf:end 295.0 ;
+  utf:end_uncertainty 0.18;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cisuralian;
+.
+  
+isc201402:Sakmarian
+  skos:prefLabel "Sakmarian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 295.0;
+  utf:start_uncertainty 0.18 ;
+  utf:end 290.1 ;
+  utf:end_uncertainty 0.26;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cisuralian;
+.
+  
+isc201402:Artinskian
+  skos:prefLabel "Artinskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 290.1;
+  utf:start_uncertainty 0.26 ;
+  utf:end 283.5 ;
+  utf:end_uncertainty 0.6;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cisuralian;
+.
+  
+isc201402:Kungurian
+  skos:prefLabel "Kungurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 283.5;
+  utf:start_uncertainty 0.6 ;
+  utf:end 272.3 ;
+  utf:end_uncertainty 0.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cisuralian;
+.
+  
+isc201402:Guadalupian
+  skos:prefLabel "Guadalupian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 272.3;
+  utf:start_uncertainty 0.5 ;
+  utf:end 259.8 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Permian;
+.
+  
+isc201402:Roadian
+  skos:prefLabel "Roadian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 272.3;
+  utf:start_uncertainty 0.5 ;
+  utf:end 268.8 ;
+  utf:end_uncertainty 0.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Guadalupian;
+.
+  
+isc201402:Wordian
+  skos:prefLabel "Wordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 268.8;
+  utf:start_uncertainty 0.5 ;
+  utf:end 265.1 ;
+  utf:end_uncertainty 0.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Guadalupian;
+.
+  
+isc201402:Capitanian
+  skos:prefLabel "Capitanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 265.1;
+  utf:start_uncertainty 0.4 ;
+  utf:end 272.3 ;
+  utf:end_uncertainty 0.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Guadalupian;
+.
+  
+isc201402:Lopingian
+  skos:prefLabel "Lopingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 259.8;
+  utf:start_uncertainty 0.4 ;
+  utf:end 252.17 ;
+  utf:end_uncertainty 0.06;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Permian;
+.
+  
+isc201402:Wuchiapingian
+  skos:prefLabel "Wuchiapingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 259.8;
+  utf:start_uncertainty 0.4 ;
+  utf:end 254.14 ;
+  utf:end_uncertainty 0.07;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Lopingian;
+.
+  
+isc201402:Changhsingian
+  skos:prefLabel "Changhsingian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 254.14;
+  utf:start_uncertainty 0.07 ;
+  utf:end 252.17 ;
+  utf:end_uncertainty 0.06;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Lopingian;
+.
+  
+isc201402:Mesozoic
+  skos:prefLabel "Mesozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 252.17;
+  utf:start_uncertainty 0.06 ;
+  utf:end 66.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Phanerozoic;
+.
+  
+isc201402:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 252.17;
+  utf:start_uncertainty 0.06 ;
+  utf:end 201.3 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mesozoic;
+.
+  
+isc201402:LowerTriassic
+  skos:prefLabel "LowerTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 252.17;
+  utf:start_uncertainty 0.06 ;
+  utf:end 247.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Triassic;
+.
+  
+isc201402:Induan
+  skos:prefLabel "Induan"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 252.17;
+  utf:start_uncertainty 0.06 ;
+  utf:end 251.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerTriassic;
+.
+  
+isc201402:Olenekian
+  skos:prefLabel "Olenekian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 251.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 247.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerTriassic;
+.
+  
+isc201402:MiddleTriassic
+  skos:prefLabel "MiddleTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 247.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 237 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Triassic;
+.
+  
+isc201402:Anisian
+  skos:prefLabel "Anisian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 247.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 242 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleTriassic;
+.
+  
+isc201402:Ladinian
+  skos:prefLabel "Ladinian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 242;
+  utf:start_uncertainty 0.0 ;
+  utf:end 237 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleTriassic;
+.
+  
+isc201402:UpperTriassic
+  skos:prefLabel "UpperTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 237;
+  utf:start_uncertainty 0.0 ;
+  utf:end 201.3 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Triassic;
+.
+  
+isc201402:Carnian
+  skos:prefLabel "Carnian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 237;
+  utf:start_uncertainty 0.0 ;
+  utf:end 227 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperTriassic;
+.
+  
+isc201402:Norian
+  skos:prefLabel "Norian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 227;
+  utf:start_uncertainty 0.0 ;
+  utf:end 208.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperTriassic;
+.
+  
+isc201402:Rhaetian
+  skos:prefLabel "Rhaetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 208.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 201.3 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperTriassic;
+.
+  
+isc201402:Jurassic
+  skos:prefLabel "Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 201.3;
+  utf:start_uncertainty 0.2 ;
+  utf:end 145.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mesozoic;
+.
+  
+isc201402:LowerJurassic
+  skos:prefLabel "LowerJurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 201.3;
+  utf:start_uncertainty 0.2 ;
+  utf:end 174.1 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Jurassic;
+.
+  
+isc201402:Hettangian
+  skos:prefLabel "Hettangian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 201.3;
+  utf:start_uncertainty 0.2 ;
+  utf:end 199.3 ;
+  utf:end_uncertainty 0.3;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerJurassic;
+.
+  
+isc201402:Sinemurian
+  skos:prefLabel "Sinemurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 199.3;
+  utf:start_uncertainty 0.3 ;
+  utf:end 190.8 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerJurassic;
+.
+  
+isc201402:Pliensbachian
+  skos:prefLabel "Pliensbachian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 190.8;
+  utf:start_uncertainty 1.0 ;
+  utf:end 182.7 ;
+  utf:end_uncertainty 0.7;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerJurassic;
+.
+  
+isc201402:Toarcian
+  skos:prefLabel "Toarcian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 182.7;
+  utf:start_uncertainty 0.7 ;
+  utf:end 174.1 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerJurassic;
+.
+  
+isc201402:MiddleJurassic
+  skos:prefLabel "MiddleJurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 174.1;
+  utf:start_uncertainty 1.0 ;
+  utf:end 163.5 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Jurassic;
+.
+  
+isc201402:Aalenian
+  skos:prefLabel "Aalenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 174.1;
+  utf:start_uncertainty 1.0 ;
+  utf:end 170.3 ;
+  utf:end_uncertainty 1.4;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleJurassic;
+.
+  
+isc201402:Bajocian
+  skos:prefLabel "Bajocian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 170.3;
+  utf:start_uncertainty 1.4 ;
+  utf:end 168.3 ;
+  utf:end_uncertainty 1.3;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleJurassic;
+.
+  
+isc201402:Bathonian
+  skos:prefLabel "Bathonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 168.3;
+  utf:start_uncertainty 1.3 ;
+  utf:end 166.1 ;
+  utf:end_uncertainty 1.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleJurassic;
+.
+  
+isc201402:Callovian
+  skos:prefLabel "Callovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 166.1;
+  utf:start_uncertainty 1.2 ;
+  utf:end 163.5 ;
+  utf:end_uncertainty 1.0;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:MiddleJurassic;
+.
+  
+isc201402:UpperJurassic
+  skos:prefLabel "UpperJurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 163.5;
+  utf:start_uncertainty 1.0 ;
+  utf:end 145.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Jurassic;
+.
+  
+isc201402:Oxfordian
+  skos:prefLabel "Oxfordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 163.5;
+  utf:start_uncertainty 1.0 ;
+  utf:end 157.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperJurassic;
+.
+  
+isc201402:Kimmeridgian
+  skos:prefLabel "Kimmeridgian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 157.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 152.1 ;
+  utf:end_uncertainty 0.9;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperJurassic;
+.
+  
+isc201402:Tithonian
+  skos:prefLabel "Tithonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 152.1;
+  utf:start_uncertainty 0.9 ;
+  utf:end 145.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperJurassic;
+.
+  
+isc201402:Cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 145.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 66.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Mesozoic;
+.
+  
+isc201402:LowerCretaceous
+  skos:prefLabel "LowerCretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 145.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 100.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cretaceous;
+.
+  
+isc201402:Berriasian
+  skos:prefLabel "Berriasian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 145.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 139.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerCretaceous;
+.
+  
+isc201402:Valanginian
+  skos:prefLabel "Valanginian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 139.8;
+  utf:start_uncertainty 0.0 ;
+  utf:end 132.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerCretaceous;
+.
+  
+isc201402:Hauterivian
+  skos:prefLabel "Hauterivian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 132.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 129.4 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerCretaceous;
+.
+  
+isc201402:Barremian
+  skos:prefLabel "Barremian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 129.4;
+  utf:start_uncertainty 0.0 ;
+  utf:end 125.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerCretaceous;
+.
+  
+isc201402:Aptian
+  skos:prefLabel "Aptian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 125.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 113.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerCretaceous;
+.
+  
+isc201402:Albian
+  skos:prefLabel "Albian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 113.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 100.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:LowerCretaceous;
+.
+  
+isc201402:UpperCretaceous
+  skos:prefLabel "UpperCretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 100.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 66.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cretaceous;
+.
+  
+isc201402:Cenomanian
+  skos:prefLabel "Cenomanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 100.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 93.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperCretaceous;
+.
+  
+isc201402:Turonian
+  skos:prefLabel "Turonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 93.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 89.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperCretaceous;
+.
+  
+isc201402:Coniacian
+  skos:prefLabel "Coniacian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 89.8;
+  utf:start_uncertainty 0.0 ;
+  utf:end 86.3 ;
+  utf:end_uncertainty 0.5;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperCretaceous;
+.
+  
+isc201402:Santonian
+  skos:prefLabel "Santonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 86.3;
+  utf:start_uncertainty 0.5 ;
+  utf:end 83.6 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperCretaceous;
+.
+  
+isc201402:Campanian
+  skos:prefLabel "Campanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 83.6;
+  utf:start_uncertainty 0.2 ;
+  utf:end 72.1 ;
+  utf:end_uncertainty 0.2;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperCretaceous;
+.
+  
+isc201402:Maastrichtian
+  skos:prefLabel "Maastrichtian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 72.1;
+  utf:start_uncertainty 0.2 ;
+  utf:end 66.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:UpperCretaceous;
+.
+  
+isc201402:Cenozoic
+  skos:prefLabel "Cenozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 66.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Phanerozoic;
+.
+  
+isc201402:Paleogene
+  skos:prefLabel "Paleogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 66.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 23.03 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cenozoic;
+.
+  
+isc201402:Paleocene
+  skos:prefLabel "Paleocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 66.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 56.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleogene;
+.
+  
+isc201402:Danian
+  skos:prefLabel "Danian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 66.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 61.6 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleocene;
+.
+  
+isc201402:Selandian
+  skos:prefLabel "Selandian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 61.6;
+  utf:start_uncertainty 0.0 ;
+  utf:end 59.2 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleocene;
+.
+  
+isc201402:Thanetian
+  skos:prefLabel "Thanetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 59.2;
+  utf:start_uncertainty 0.0 ;
+  utf:end 56.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleocene;
+.
+  
+isc201402:Eocene
+  skos:prefLabel "Eocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 56.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 33.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleogene;
+.
+  
+isc201402:Ypresian
+  skos:prefLabel "Ypresian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 56.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 47.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Eocene;
+.
+  
+isc201402:Lutetian
+  skos:prefLabel "Lutetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 47.8;
+  utf:start_uncertainty 0.0 ;
+  utf:end 41.3 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Eocene;
+.
+  
+isc201402:Bartonian
+  skos:prefLabel "Bartonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 41.3;
+  utf:start_uncertainty 0.0 ;
+  utf:end 38.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Eocene;
+.
+  
+isc201402:Priabonian
+  skos:prefLabel "Priabonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 38.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 33.9 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Eocene;
+.
+  
+isc201402:Oligocene
+  skos:prefLabel "Oligocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 33.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 23.03 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Paleogene;
+.
+  
+isc201402:Rupelian
+  skos:prefLabel "Rupelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 33.9;
+  utf:start_uncertainty 0.0 ;
+  utf:end 28.1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Oligocene;
+.
+  
+isc201402:Chattian
+  skos:prefLabel "Chattian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 28.1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 23.03 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Oligocene;
+.
+  
+isc201402:Neogene
+  skos:prefLabel "Neogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 23.03;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2.588 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cenozoic;
+.
+  
+isc201402:Miocene
+  skos:prefLabel "Miocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 23.03;
+  utf:start_uncertainty 0.0 ;
+  utf:end 5.333 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Neogene;
+.
+  
+isc201402:Aquitanian
+  skos:prefLabel "Aquitanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 23.03;
+  utf:start_uncertainty 0.0 ;
+  utf:end 20.44 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Miocene;
+.
+  
+isc201402:Burdigalian
+  skos:prefLabel "Burdigalian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 20.44;
+  utf:start_uncertainty 0.0 ;
+  utf:end 15.97 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Miocene;
+.
+  
+isc201402:Langhian
+  skos:prefLabel "Langhian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 15.97;
+  utf:start_uncertainty 0.0 ;
+  utf:end 13.82 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Miocene;
+.
+  
+isc201402:Serravallian
+  skos:prefLabel "Serravallian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 13.82;
+  utf:start_uncertainty 0.0 ;
+  utf:end 11.63 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Miocene;
+.
+  
+  
+isc201402:Tortonian
+  skos:prefLabel "Tortonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 11.62;
+  utf:start_uncertainty 0.0 ;
+  utf:end 7.246 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Miocene;
+.
+  
+isc201402:Messinian
+  skos:prefLabel "Messinian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 7.246;
+  utf:start_uncertainty 0.0 ;
+  utf:end 5.333 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Miocene;
+.
+  
+isc201402:Pliocene
+  skos:prefLabel "Pliocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 5.333;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2.588 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Neogene;
+.
+  
+isc201402:Zanclean
+  skos:prefLabel "Zanclean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 5.333;
+  utf:start_uncertainty 0.0 ;
+  utf:end 3.6 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pliocene;
+.
+  
+isc201402:Piacenzian
+  skos:prefLabel "Piacenzian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 3.6;
+  utf:start_uncertainty 0.0 ;
+  utf:end 2.588 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pliocene;
+.
+  
+isc201402:Gelasian
+  skos:prefLabel "Gelasian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2.588;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1.8 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pleistocene;
+.
+  
+isc201402:Quaternary
+  skos:prefLabel "Quaternary"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2.588;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Cenozoic;
+.
+  
+isc201402:Pleistocene
+  skos:prefLabel "Pleistocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 2.588;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0117 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Quaternary;
+.
+  
+isc201402:Calabrian
+  skos:prefLabel "Calabrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1.8;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.781 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pleistocene;
+.
+  
+isc201402:MiddlePleistocene
+  skos:prefLabel "MiddlePleistocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.781;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.126 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pleistocene;
+.
+  
+isc201402:UpperPleistocene
+  skos:prefLabel "UpperPleistocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.126;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0117 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Pleistocene;
+.
+  
+isc201402:Holocene
+  skos:prefLabel "Holocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0117;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  isc201402:ICS201402;
+  utf:partOf isc201402:Quaternary;
+.
+  
