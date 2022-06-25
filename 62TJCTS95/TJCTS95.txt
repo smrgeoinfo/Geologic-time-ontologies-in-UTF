@@ -1,0 +1,7 @@
+TJCTS95
+
+TJCTS95 means "Triassic, Jurassic and Cretaceous Time Scale 1995", which has 297 triples. Covers the geological duration from 0.2 to 248.2 Ma. Includes 3 Periods (Cretaceous, Jurassic, Triassic)
+and 30 Stages (Maastrichtian, Campanian, Santonian, Coniacian, Turonian, Cenomanian, Albian, Aptian, Barremian, Hauterivian, Valanginian, Berriasian, Tithonian, Kimmeridgian, Oxfordian,
+Callovian, Bathonian, Bajocian, Aalenian, Toarcian, Pliensbachian, Sinemurian, Hettangian, Rhaetian, Norian, Carnian, Ladinian, Anisian, Olenekian, Induan) in total. 
+Cited from (Gradstein, F. M. . (1995). A triassic, jurassic and cretaceous time scale. Geochronology time scales and global correlation. Soc. Econ. Paleont. Mineral.)
+

@@ -1,0 +1,10 @@
+BGSGT12
+
+BGSGT12 means "British Geological Survey Geological Timescale 2012", which has 1583 triples. Covers the geological duration from 0 to 4600 Ma. Includes 4 Eons (Phanerozoic, Proterozoic, Archaean and
+Hadean), 10 Eras (Cenozoic, Mesozoic, Palaeozoic, Palaeoproterozoic, Mesoproterozoic, Neoproterozoic, Eoarchaean, Palaeoarchaean, Mesoarchaean, Neoarchaene), 22 Periods (Neogene, Palaeogene, Quaternary,
+Cretaceous, Jurassic, Triassic, Permian, Carboniferous, Devonian, Ordovician, Silurian, Cambrian, Ediacaran, Cryogenian, Tonian, Stenian, Ectasian, Calymmian, Statherian, Orosirian, Rhyacian, Siderian)
+) and 36 Epoches (Pleistocene, Holocene, Miocene, Pliocene, Oligocene, Eocene, Paleocene, early_Cretaceous, late_Cretaceous, early_Jurassic, middle_Jurassic, late_Jurassic, early_Triassic, middle_Triassic, late_Triassic,
+Cisuralian, Guadalupian, Lopingian, Carboniferous, Llandovery, Wenlock, Ludlow, Pridoli, early_Ordovician, middle_Ordovician, late_Ordovician, Ediacaran, Cryogenian, Tonian, Stenian, Ectasian, Calymmian, Statherian,
+Orosirian, Rhyacian, Siderian) in total. 
+Cited from (Gradstein, F. M., Ogg, J. G., Schmitz, M. D., & Ogg, G. M. (Eds.). (2012). The geologic time scale 2012. elsevier.)
+

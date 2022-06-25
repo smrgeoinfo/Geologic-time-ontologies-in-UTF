@@ -1,0 +1,7 @@
+RCGC95
+
+RCGC95 means "Revised Cenozoic Geochronology-Chronostratigraphy: 1995 Geologic Time Scale", which has 374 triples. Covers the geological duration from 0 to 68.9 Ma. 
+Includes 5 Epoches (Miocene, Pliocene, Oligocene, Eocene, Paleocene) and 19 Ages (Lutetian, Bartonian, Langhian, Serravallian, Priabonian, Ypresian, Aquitanian, Burdigalian, Rupelian,
+Zanclian, Priabonian, Tortonian, Messinian, Chattian, Piacenzian, Danian, Thanetian, Selandian, Chattian) in total. 
+Cited from (Berggren, W. A. ,  Kent, D. V. ,  Iii, C. C. S. , &  Aubry, M. P. . (1995). A revised Cenozoic geochronology and chronostratigraphy. SEPM Spec. Publ.)
+

@@ -1,0 +1,7 @@
+IAD60
+
+IAD60 means "Isotopic Age Determination: 1960 Geologic Time Scale", which has 522 triples. Covers the geological duration from 0 to 600 Ma. Includes 3 Eras (Cenozoic, Mesozoic, Paleozoic), 11 Periods (Quaternary, Tertiary,
+Cretaceous, Jurassic, Triassic, Permian, Carboniferous, Devonian, Ordovician, Silurian, Cambrian) and 19 Epoches (Pleistocene, Miocene, Pliocene, Oligocene, Eocene, Paleocene, Maastrichtian, Campanian, Santonian, Coniacian
+Turonian, Cenomanian, Albian, Aptian, Neocomian, Bathonian, Bajocian, Visean, Tournaisian) in total. 
+Cited from (Kulp, J. L. (1961). Geologic time scale. Science, 133(3459), 1105-1114.)
+

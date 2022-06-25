@@ -1,0 +1,7 @@
+DCP03
+
+DCP03 stands for "Devonian–Carboniferous–Permian Correlation Chart 2003", Hhas 241 triples, and describes the geological time scale in South China, covers the geological duration from 251 to 358 Ma. Includes 5 Epoches (Lopingian, Yanghsingian, Chuanshanian, Hutianian and Fengningian), 
+10 Series (Longlinian, Zisongian, Tatangian, Aikuanian, Mapingian, Weiningian, Changhsingian, Wuchiapingian, Maokouan and Chihsian) and 12 Stages (Tangbagouan, Luodianian, Lengwuan, Kuhfengian,
+Xiangboan, Xiaodushanian, Dewuan, Shangsian, Jiusian, Dalaun, Huashibanian and Luosuan) in total. 
+Cited from (Menning, M., Alekseev, A. S., Chuvashov, B. I., Davydov, V. I., Devuyst, F. X., Forke, H. C., ... & Work, D. M. (2006). Global time scale and regional stratigraphic reference scales of central and west Europe, east Europe, Tethys, south China, and North America as used in the 
+Devonian–Carboniferous–Permian Correlation Chart 2003 (DCP 2003). Palaeogeography, Palaeoclimatology, Palaeoecology, 240(1-2), 318-372.)

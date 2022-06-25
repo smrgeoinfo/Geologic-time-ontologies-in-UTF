@@ -1,0 +1,9 @@
+DNAG83
+
+DNAG83 stands for "Decade of north American geology: 1983 Geologic Time Scale", which has 1344 triples. Covers the geological duration from 0 to 3800 Ma. Includes 9 Eras (Cenozoic, Mesozoic, Palaeozoic, late_Proterozoic, 
+early_Proterozoic, middle_Proterozoic, middle_Archaean, early_Archaean, late_Archaean), 11 Periods (Neogene, Paleogene, Cretaceous, Jurassic, Triassic, late_Permian, early_Permian, Carboniferous, Devonian, Ordovician, Silurian, Cambrian),
+) and 30 Epoches (Pleistocene, Holocene, Miocene, Pliocene, Oligocene, Eocene, Paleocene, early_Cretaceous, late_Cretaceous, early_Jurassic, middle_Jurassic, late_Jurassic, early_Triassic, middle_Triassic, late_Triassic,
+early_Carboniferous, late_Carboniferous, early_Ordovician, middle_Ordovician, late_Ordovician, late_Silurian, early_Silurian, early_Cambrian, middle_Cambrian, late_Cambrian, late_Devonian, middle_Devonian, early_Devonian
+late_Permian, early_Permian) in total. 
+Cited from the Figures in reference (Palmer, A. R. (1983). The decade of North American geology 1983 geologic time scale. Geology, 11(9), 503-504.). 
+

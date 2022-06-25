@@ -1,0 +1,237 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix grts76: <https://www.ddeworld.org/ddeKG/base/utf/grts76#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+grts76:GRTS76
+  rdf:type utf:reference_system ;
+  skos:prefLabel "Geomagnetic-reversal Time Scales: 1976 Cretaceous Time Scale"@en ;
+  dc:contributor "All records are constructed by Dr. Yanmin Qi 12/29/2021, applying in DDE program (Deep-time Digital Earth IUGS Big Science Program)."@en ;
+.
+
+
+
+grts76:cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 135.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 65.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+.
+
+
+grts76:early_cretaceous
+  skos:prefLabel "early_Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 135.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 100.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:cretaceous ;
+.
+
+
+grts76:neocomian
+  skos:prefLabel "Neocomian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 135.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 121.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:early_cretaceous ;
+.
+
+
+grts76:beariasian
+  skos:prefLabel "Beariasian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 135.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 131.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:neocomian ;
+.
+
+
+grts76:valanginian
+  skos:prefLabel "Valanginian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 131.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 126.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:neocomian ;
+.
+
+
+grts76:hauterivian
+  skos:prefLabel "Hauterivian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 126.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 121.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:neocomian ;
+.
+
+
+grts76:barremian
+  skos:prefLabel "Barremian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 121.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 115.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:early_cretaceous ;
+.
+
+grts76:aptian
+  skos:prefLabel "Aptian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 115.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 108.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:early_cretaceous ;
+.
+
+
+grts76:albian
+  skos:prefLabel "Albian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 108.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 100.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:early_cretaceous ;
+.
+
+
+
+
+grts76:late_cretaceous
+  skos:prefLabel "late_Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 100.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 65.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:cretaceous ;
+.
+
+
+grts76:cenomanian
+  skos:prefLabel "Cenomanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 100.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 92.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:late_cretaceous ;
+.
+
+
+grts76:turonian
+  skos:prefLabel "Turonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 92.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 86.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:late_cretaceous ;
+.
+
+
+grts76:senonian
+  skos:prefLabel "Senonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 86.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 65.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:late_cretaceous ;
+.
+
+
+
+grts76:coniacian
+  skos:prefLabel "Coniacian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 86.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 82.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:senonian ;
+.
+
+
+grts76:santonian
+  skos:prefLabel "Santonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 82.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 78.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:senonian ;
+.
+
+
+grts76:campanian
+  skos:prefLabel "Campanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 78.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 70.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:senonian ;
+.
+
+
+grts76:maastrichtian
+  skos:prefLabel "Maastrichtian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 70.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 65.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system grts76:GRTS76 ;
+  utf:partOf grts76:senonian ;
+.
+
+

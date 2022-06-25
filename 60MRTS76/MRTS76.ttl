@@ -1,0 +1,235 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix mrts76: <https://www.ddeworld.org/ddeKG/base/utf/mrts76#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+mrts76:MRTS76
+  rdf:type utf:reference_system ;
+  skos:prefLabel "Magnetic-reversal Time Scale: 1976 Jurassic Time Scale"@en ;
+  dc:contributor "All records are constructed by Dr. Yanmin Qi 12/29/2021, applying in DDE program (Deep-time Digital Earth IUGS Big Science Program)."@en ;
+.
+
+
+mrts76:jurassic
+  skos:prefLabel "Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 192.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 135.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+.
+
+
+mrts76:early_jurassic
+  skos:prefLabel "early_Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 192.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 171.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:jurassic ;
+.
+
+
+mrts76:hettangian
+  skos:prefLabel "Hettangian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 192.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 189.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:early_jurassic ;
+.
+
+
+mrts76:sinemurian
+  skos:prefLabel "Sinemurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 189.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 183.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:early_jurassic ;
+.
+
+
+mrts76:pliensbachian
+  skos:prefLabel "Pliensbachian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 183.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 178.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:early_jurassic ;
+.
+
+
+mrts76:toarcian
+  skos:prefLabel "Toarcian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 178.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 174.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:early_jurassic ;
+.
+
+
+mrts76:aalenian
+  skos:prefLabel "Aalenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 174.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 171.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:early_jurassic ;
+.
+
+
+
+mrts76:middle_jurassic
+  skos:prefLabel "middle_Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 171.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 149.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:jurassic ;
+.
+
+
+mrts76:bajocian
+  skos:prefLabel "Bajocian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start  171.0;
+  utf:start_uncertainty  0;
+  utf:end 165.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:middle_jurassic ;
+.
+
+
+mrts76:bathonian
+  skos:prefLabel "Bathonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 165.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end  156.0;
+  utf:end_uncertainty  0;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:middle_jurassic ;
+.
+
+
+mrts76:callovian
+  skos:prefLabel "Callovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 156.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end  149.0;
+  utf:end_uncertainty  0;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:middle_jurassic ;
+.
+
+
+mrts76:late_jurassic
+  skos:prefLabel "late_Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 149.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 135.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:jurassic ;
+.
+
+
+mrts76:oxfordian
+  skos:prefLabel "Oxfordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 149.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 143.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:late_jurassic ;
+.
+
+
+mrts76:kimmeridgian
+  skos:prefLabel "Kimmeridgian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 143.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 138.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:late_jurassic ;
+.
+
+
+mrts76:early_kimmeridgian
+  skos:prefLabel "early_Kimmeridgian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 143.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 141.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:kimmeridgian ;
+.
+
+
+mrts76:late_kimmeridgian
+  skos:prefLabel "late_Kimmeridgian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 141.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 138.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:kimmeridgian ;
+.
+
+
+mrts76:portlandian
+  skos:prefLabel "Portlandian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 138.0 ;
+  utf:start_uncertainty 0 ;
+  utf:end 135.0 ;
+  utf:end_uncertainty 0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system mrts76:MRTS76 ;
+  utf:partOf mrts76:late_jurassic ;
+.
+
+

@@ -1,0 +1,6 @@
+MRTS76
+
+MRTS76 means "Magnetic-reversal Time Scale: 1976 Jurassic Time Scale", which has 155 triples. Covers the geological duration from 135 to 192 Ma. This version revised Period Jurassic. Includes 3 Epoches 
+(early_Jurassic, middle_Jurassic, late_Jurassic) and 11 Ages (Portlandian, Kimmeridgian, Oxfordian, Callovian, Bathonian, Bajocian, Aalenian, Toarcian, Pliensbachian, Sinemurian Hettangian) in total. 
+Cited from (Van Hinte, J. E. (1976). A Jurassic time scale. AAPG Bulletin, 60(4), 489-497.)
+

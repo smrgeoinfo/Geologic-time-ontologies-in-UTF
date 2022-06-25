@@ -1,0 +1,6 @@
+GRTS76
+
+GRTS76 represents "Geomagnetic-reversal Time Scales: 1976 Cretaceous Time Scale", which has 155 triples. Covers the geological duration from 65 to 135 Ma. This version revised the Period Cretaceous.
+Includes 2 Epoches (early_Cretaceous, late_Cretaceous) and 12 Ages (Maastrichtian, Campanian, Santonian, Coniacian, Turonian, Cenomanian, Albian, Aptian, Barremian, Hauterivian, Valanginian, Berriasian) in total. 
+Cited from (Van Hinte, J. E. (1976). A Cretaceous time scale. AAPG Bulletin, 60(4), 498-516.). 
+

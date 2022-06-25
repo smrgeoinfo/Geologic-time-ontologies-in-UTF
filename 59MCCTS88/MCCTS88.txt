@@ -1,0 +1,6 @@
+MCCTS88
+
+MCCTS88 means "Mesozoic and Cenozoic Chronostratigraphy: 1988 Geologic Time Scale", which has 705 triples. Covers the geological duration from 0 to 250 Ma. Includes 14 Epoches (Pleistocene, Miocene, Pliocene, 
+Oligocene, Eocene, Paleocene, early_Cretaceous, late_Cretaceous, early_Jurassic, middle_Jurassic, late_Jurassic, early_Triassic, middle_Triassic, late_Triassic) in total. 
+Cited from (Haq, B. U., Hardenbol, J., & Vail, P. R. (1988). Mesozoic and Cenozoic chronostratigraphy and cycles of sea-level change.)
+
