@@ -1,0 +1,179 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix twenhofel1935: <https://www.ddeworld.org/ddeKG/base/utf/twenhofel1935#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+twenhofel1935:Twenhofel1935_Elias1945
+  rdf:type utf:reference_system ;
+  skos:prefLabel "Twenhofel1935 from Elias1945"@en ;
+  dc:contributor "Twenhofel, W. H., and Shrock, R. R. (1935), Invertebrate Paleontology. XVI+511 pp., 175 figs. "@en ;
+  dc:contributor "Elias M K. Geological Calendar (Indications of Periodicity in Nature and Succession of Geological Periods)[J]. AAPG Bulletin, 1945, 29(7): 1035-1043."@en ;
+.
+
+twenhofel1935:Neogene
+  skos:prefLabel "Neogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0 ;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Paleogene
+  skos:prefLabel "Paleogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 60;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0 ;
+  utf:start_uncertainty 0.0 ;
+  utf:end 60 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Comanchean
+  skos:prefLabel "Comanchean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 120;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Jurassic
+  skos:prefLabel "Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 160;
+  utf:start_uncertainty 0.0 ;
+  utf:end 120 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 200;
+  utf:start_uncertainty 0.0 ;
+  utf:end 160 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Permian
+  skos:prefLabel "Permian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 230;
+  utf:start_uncertainty 0.0 ;
+  utf:end 200 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Pennsylvanian
+  skos:prefLabel "Pennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 280;
+  utf:start_uncertainty 0.0 ;
+  utf:end 230 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Mississippian
+  skos:prefLabel "Mississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 315;
+  utf:start_uncertainty 0.0 ;
+  utf:end 280 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 355;
+  utf:start_uncertainty 0.0 ;
+  utf:end 315 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 385;
+  utf:start_uncertainty 0.0 ;
+  utf:end 355 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0 ;
+  utf:start_uncertainty 0.0 ;
+  utf:end 385 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Canadian
+  skos:prefLabel "Canadian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 435;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Ozarkian
+  skos:prefLabel "Ozarkian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0 ;
+  utf:start_uncertainty 0.0 ;
+  utf:end 435 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  
+twenhofel1935:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 485;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system twenhofel1935:Twenhofel1935_Elias1945 ;
+.
+  

@@ -1,0 +1,180 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix moore1933: <https://www.ddeworld.org/ddeKG/base/utf/moore1933#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+moore1933:Moore1933_Elias1945_Elias1945
+  rdf:type utf:reference_system ;
+  skos:prefLabel "Moore1933 from Elias1945"@en ;
+  dc:contributor "Moore, R. C.(1933),Historical Geology.ⅩⅢ+673pp.,413figs "@en ;
+  dc:contributor "Elias M K. Geological Calendar (Indications of Periodicity in Nature and Succession of Geological Periods)[J]. AAPG Bulletin, 1945, 29(7): 1035-1043."@en ;
+.
+
+
+moore1933:Neogene
+  skos:prefLabel "Neogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Paleogene
+  skos:prefLabel "Paleogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 58;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 58 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Comanchean
+  skos:prefLabel "Comanchean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 123;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Jurassic
+  skos:prefLabel "Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 155;
+  utf:start_uncertainty 0.0 ;
+  utf:end 123 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 183;
+  utf:start_uncertainty 0.0 ;
+  utf:end 155 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Permian
+  skos:prefLabel "Permian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 221;
+  utf:start_uncertainty 0.0 ;
+  utf:end 183 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Pennsylvanian
+  skos:prefLabel "Pennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 269;
+  utf:start_uncertainty 0.0 ;
+  utf:end 221 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Mississippian
+  skos:prefLabel "Mississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 307;
+  utf:start_uncertainty 0.0 ;
+  utf:end 269 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 352;
+  utf:start_uncertainty 0.0 ;
+  utf:end 307 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 379;
+  utf:start_uncertainty 0.0 ;
+  utf:end 352 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 379 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Canadian
+  skos:prefLabel "Canadian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 446;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Ozarkian
+  skos:prefLabel "Ozarkian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 446 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  
+moore1933:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 551;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system moore1933:Moore1933_Elias1945 ;
+.
+  

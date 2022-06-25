@@ -1,0 +1,179 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix elias1: <https://www.ddeworld.org/ddeKG/base/utf/elias1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+elias1:Elias1945_1
+  rdf:type utf:reference_system ;
+  skos:prefLabel "Elias1945_1"@en ;
+  dc:contributor "Elias M K. Geological Calendar (Indications of Periodicity in Nature and Succession of Geological Periods)[J]. AAPG Bulletin, 1945, 29(7): 1035-1043."@en ;
+.
+
+elias1:Neogene
+  skos:prefLabel "Neogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0 ;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Paleogene
+  skos:prefLabel "Paleogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 60;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 105;
+  utf:start_uncertainty 0.0 ;
+  utf:end 60 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Comanchean
+  skos:prefLabel "Comanchean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 135;
+  utf:start_uncertainty 0.0 ;
+  utf:end 105 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Jurassic
+  skos:prefLabel "Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 175;
+  utf:start_uncertainty 0.0 ;
+  utf:end 135 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 210;
+  utf:start_uncertainty 0.0 ;
+  utf:end 175 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Permian
+  skos:prefLabel "Permian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 256;
+  utf:start_uncertainty 0.0 ;
+  utf:end 210 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Pennsylvanian
+  skos:prefLabel "Pennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 285;
+  utf:start_uncertainty 0.0 ;
+  utf:end 256 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Mississippian
+  skos:prefLabel "Mississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 319;
+  utf:start_uncertainty 0.0 ;
+  utf:end 285 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 362;
+  utf:start_uncertainty 0.0 ;
+  utf:end 319 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 389;
+  utf:start_uncertainty 0.0 ;
+  utf:end 362 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 430;
+  utf:start_uncertainty 0.0 ;
+  utf:end 389 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Canadian
+  skos:prefLabel "Canadian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 460;
+  utf:start_uncertainty 0.0 ;
+  utf:end 430 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Ozarkian
+  skos:prefLabel "Ozarkian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 490;
+  utf:start_uncertainty 0.0 ;
+  utf:end 460 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+  
+elias1:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 538;
+  utf:start_uncertainty 0.0 ;
+  utf:end 490 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  elias1:Elias1945_1;
+.
+
+  

@@ -1,0 +1,166 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix holmes1947a:<https://www.ddeworld.org/ddeKG/base/utf/holmes1947a#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+holmes1947a:Holmes1947A
+  rdf:type utf:reference_system ;
+  skos:prefLabel "A Geologic Time Scale 1947A"@en ;
+  dc:contributor "Homles, A. The construction of a geological time-scale[J]. Transactions of the Geological Society of Glasgow, 1947, 21: I17-152."@en ;
+.
+
+holmes1947a:Pleistocene
+  skos:prefLabel "Pleistocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Pliocene
+  skos:prefLabel "Pliocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 15;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Miocene
+  skos:prefLabel "Miocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 32;
+  utf:start_uncertainty 0.0 ;
+  utf:end 15 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Oligocene
+  skos:prefLabel "Oligocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 47;
+  utf:start_uncertainty 0.0 ;
+  utf:end 32 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Eocene
+  skos:prefLabel "Eocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 68;
+  utf:start_uncertainty 0.0 ;
+  utf:end 47 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 140;
+  utf:start_uncertainty 0.0 ;
+  utf:end 68 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Jurassic
+  skos:prefLabel "Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 167;
+  utf:start_uncertainty 0.0 ;
+  utf:end 140 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 196;
+  utf:start_uncertainty 0.0 ;
+  utf:end 167 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Premian
+  skos:prefLabel "Premian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 220;
+  utf:start_uncertainty 0.0 ;
+  utf:end 196 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Carboniferous
+  skos:prefLabel "Carboniferous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 275;
+  utf:start_uncertainty 0.0 ;
+  utf:end 220 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 318;
+  utf:start_uncertainty 0.0 ;
+  utf:end 275 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 350;
+  utf:start_uncertainty 0.0 ;
+  utf:end 318 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 430;
+  utf:start_uncertainty 0.0 ;
+  utf:end 350 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  
+holmes1947a:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 510;
+  utf:start_uncertainty 0.0 ;
+  utf:end 430 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1947a:Holmes1947A;
+.
+  

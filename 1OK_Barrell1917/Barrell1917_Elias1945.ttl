@@ -1,0 +1,179 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix barrell1917: <https://www.ddeworld.org/ddeKG/base/utf/barrell1917#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+barrell1917:Barrell1917_Elias1945
+  rdf:type utf:reference_system ;
+  skos:prefLabel "Barrell1917 from Elias1945"@en ;
+  dc:contributor "Barrell, J. (1917), Rhythms and the Measurements of Geologic Time, Bull. Geol. Soc. America, Vol. 28, pp. 745-904; 6 text figs., 4 tables, Pis. 43-46. "@en ;
+  dc:contributor "Elias M K. Geological Calendar (Indications of Periodicity in Nature and Succession of Geological Periods)[J]. AAPG Bulletin, 1945, 29(7): 1035-1043."@en ;
+.
+ 
+barrell1917:Neogene
+  skos:prefLabel "Neogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 18;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Paleogene
+  skos:prefLabel "Paleogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 54;
+  utf:start_uncertainty 0.0 ;
+  utf:end 18 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 94;
+  utf:start_uncertainty 0.0 ;
+  utf:end 54 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Comanchean
+  skos:prefLabel "Comanchean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 119;
+  utf:start_uncertainty 0.0 ;
+  utf:end 94 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Jurassic
+  skos:prefLabel "Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 154;
+  utf:start_uncertainty 0.0 ;
+  utf:end 119 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 189;
+  utf:start_uncertainty 0.0 ;
+  utf:end 154 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Permian
+  skos:prefLabel "Permian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 214;
+  utf:start_uncertainty 0.0 ;
+  utf:end 189 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Pennsylvanian
+  skos:prefLabel "Pennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 249;
+  utf:start_uncertainty 0.0 ;
+  utf:end 214 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Mississippian
+  skos:prefLabel "Mississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 289;
+  utf:start_uncertainty 0.0 ;
+  utf:end 249 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 339;
+  utf:start_uncertainty 0.0 ;
+  utf:end 289 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 379;
+  utf:start_uncertainty 0.0 ;
+  utf:end 339 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 379 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Canadian
+  skos:prefLabel "Canadian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 469;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Ozarkian
+  skos:prefLabel "Ozarkian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 469 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
+barrell1917:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 539;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system barrell1917:Barrell1917_Elias1945 ;
+.
+  
