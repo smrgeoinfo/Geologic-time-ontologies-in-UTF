@@ -1,0 +1,4 @@
+GTS2004 
+
+GTS2004 means"A geologic time scale 2004",which has 1290 triples.Covers the geological duration from 0 to 542 Ma. Includes 143 Geochronologic era in total. 
+Cited from (Gradstein F M,Ogg J G,  Smith A G. A geologic time scale 2004[M]. Cambridge University Press, 2004.)

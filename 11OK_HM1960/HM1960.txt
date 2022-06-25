@@ -1,0 +1,4 @@
+HM1960
+
+HM1960 means " Holmes-Marble Time Scale 1960", which has 102 triples. Covers the geological duration from 0 to 520 Ma. Includes 9 Geochronologic era in total. 
+Cited from (Harland,W.B.,Cox,A.V.,Llewellyn,P.G.,Pickton,C.A.G.,Smith,A.G.&Walters,R.1982.A Geologic Time Scale 1982.Cambridge University Press.)

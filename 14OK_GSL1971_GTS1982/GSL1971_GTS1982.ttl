@@ -1,0 +1,2401 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix gsl1971: <https://www.ddeworld.org/ddeKG/base/utf/gsl1971#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+gsl1971:GSL1971_GTS1982
+  rdf:type utf:reference_system ;
+  skos:prefLabel "A Geologic Time Scale 1971"@en ;
+  #需要补充参考文献
+  dc:contributor "Harland,W.B.,Cox,A.V.,Llewellyn,P.G.,Pickton,C.A.G.,Smith,A.G.&Walters,R.1982.A Geologic Time Scale 1982.Cambridge University Press."@en ;
+.
+
+
+gsl1971:Phanerozoic
+  skos:prefLabel "Phanerozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 574;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+.
+  
+gsl1971:Paleozoic
+  skos:prefLabel "Paleozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 574;
+  utf:start_uncertainty 0.0 ;
+  utf:end 235 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Phanerozoic;
+.
+  
+gsl1971:Mesozoic
+  skos:prefLabel "Mesozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 235;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Phanerozoic;
+.
+  
+gsl1971:Cenozoic
+  skos:prefLabel "Cenozoic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Phanerozoic;
+.
+  
+gsl1971:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 574;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleozoic;
+.
+  
+gsl1971:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleozoic;
+.
+  
+gsl1971:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 405 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleozoic;
+.
+  
+gsl1971:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 405;
+  utf:start_uncertainty 0.0 ;
+  utf:end 360 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleozoic;
+.
+  
+gsl1971:Carboniferous
+  skos:prefLabel "Carboniferous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 360;
+  utf:start_uncertainty 0.0 ;
+  utf:end 276 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleozoic;
+.
+  
+gsl1971:Permian 
+  skos:prefLabel "Permian "@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 276;
+  utf:start_uncertainty 0.0 ;
+  utf:end 235 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleozoic;
+.
+  
+gsl1971:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 235;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Mesozoic;
+.
+  
+gsl1971:Jurassic
+  skos:prefLabel "Jurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 125 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Mesozoic;
+.
+  
+gsl1971:Cretaceous
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 125;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Mesozoic;
+.
+  
+gsl1971:Tertiary
+  skos:prefLabel "Tertiary"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Cenozoic;
+.
+  
+gsl1971:Quaternary
+  skos:prefLabel "Quaternary(Q) or Pleistogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Cenozoic;
+.
+  
+gsl1971:Mississippian
+  skos:prefLabel "Mississippian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Carboniferous;
+.
+  
+gsl1971:Pennsylvanian
+  skos:prefLabel "Pennsylvanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Carboniferous;
+.
+  
+gsl1971:Paleogene
+  skos:prefLabel "Paleogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Tertiary;
+.
+  
+gsl1971:Neogene
+  skos:prefLabel "Neogene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 574 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Tertiary;
+.
+  
+gsl1971:Caerfai
+  skos:prefLabel "Caerfai"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 574;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Cambrian;
+.
+  
+gsl1971:St_Davids
+  skos:prefLabel "St.Davids"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Cambrian;
+.
+  
+gsl1971:Merioneth
+  skos:prefLabel "Merioneth"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Cambrian;
+.
+  
+gsl1971:Tremadoc
+  skos:prefLabel "Tremadoc"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ordovician;
+.
+  
+gsl1971:Arenig
+  skos:prefLabel "Arenig"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ordovician;
+.
+  
+gsl1971:Llanvirn
+  skos:prefLabel "Llanvirn"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ordovician;
+.
+  
+gsl1971:Llandeilo
+  skos:prefLabel "Llandeilo"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ordovician;
+.
+  
+gsl1971:Caradoc
+  skos:prefLabel "Caradoc"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ordovician;
+.
+  
+gsl1971:Ashgill
+  skos:prefLabel "Ashgill"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ordovician;
+.
+  
+gsl1971:Llandovery
+  skos:prefLabel "Llandovery"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Silurian;
+.
+  
+gsl1971:Wenlock
+  skos:prefLabel "Wenlock"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Silurian;
+.
+  
+gsl1971:Ludlow
+  skos:prefLabel "Ludlow"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 405 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Silurian;
+.
+  
+gsl1971:Pridoli
+  skos:prefLabel "Pridoli"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 405;
+  utf:start_uncertainty 0.0 ;
+  utf:end 405 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Silurian;
+.
+  
+gsl1971:LateDevonian
+  skos:prefLabel "LateDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 405;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Devonian;
+.
+  
+gsl1971:MiddleDevonian
+  skos:prefLabel "MiddleDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Devonian;
+.
+  
+gsl1971:EarlyDevonian
+  skos:prefLabel "EarlyDevonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 360 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Devonian;
+.
+  
+gsl1971:Tournaisian
+  skos:prefLabel "Tournaisian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 360;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Mississippian;
+.
+  
+gsl1971:Visean
+  skos:prefLabel "Visean"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Mississippian;
+.
+  
+gsl1971:Serpukhovian
+  skos:prefLabel "Serpukhovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Mississippian;
+.
+  
+gsl1971:Bashkirian
+  skos:prefLabel "Bashkirian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Pennsylvanian;
+.
+  
+gsl1971:Moscovian
+  skos:prefLabel "Moscovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Pennsylvanian;
+.
+  
+gsl1971:Kasimovian
+  skos:prefLabel "Kasimovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 276 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Pennsylvanian;
+.
+  
+gsl1971:Gzelian
+  skos:prefLabel "Gzelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 276;
+  utf:start_uncertainty 0.0 ;
+  utf:end 276 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Pennsylvanian;
+.
+  
+gsl1971:EarlyPermian
+  skos:prefLabel "EarlyPermian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 276;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Permian;
+.
+  
+gsl1971:LatePermian
+  skos:prefLabel "LatePermian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 235 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Permian;
+.
+  
+gsl1971:EarlyTriassic
+  skos:prefLabel "EarlyTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 235;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Triassic;
+.
+  
+gsl1971:MiddleTriassic
+  skos:prefLabel "MiddleTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Triassic;
+.
+  
+gsl1971:LateTriassic
+  skos:prefLabel "LateTriassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Triassic;
+.
+  
+gsl1971:EarlyJurassic
+  skos:prefLabel "EarlyJurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Jurassic;
+.
+  
+gsl1971:MiddleJurassic
+  skos:prefLabel "MiddleJurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Jurassic;
+.
+  
+gsl1971:LateJurassic
+  skos:prefLabel "LateJurassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 125 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Jurassic;
+.
+  
+gsl1971:EarlyCretaceous
+  skos:prefLabel "EarlyCretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 125;
+  utf:start_uncertainty 0.0 ;
+  utf:end 95 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Cretaceous;
+.
+  
+gsl1971:LateCretaceous
+  skos:prefLabel "LateCretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 95;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Cretaceous;
+.
+  
+gsl1971:Paleocene
+  skos:prefLabel "Paleocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleogene;
+.
+  
+gsl1971:Eocene
+  skos:prefLabel "Eocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleogene;
+.
+  
+gsl1971:Oligocene
+  skos:prefLabel "Oligocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleogene;
+.
+  
+gsl1971:Miocene
+  skos:prefLabel "Miocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Neogene;
+.
+  
+gsl1971:Pliocene
+  skos:prefLabel "Pliocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Neogene;
+.
+  
+gsl1971:Pleistocene
+  skos:prefLabel "Pleistocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Quaternary;
+.
+  
+gsl1971:Holocene
+  skos:prefLabel "Holocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Quaternary;
+.
+  
+gsl1971:Lias
+  skos:prefLabel "Lias"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyJurassic;
+.
+  
+gsl1971:Dogger
+  skos:prefLabel "Dogger"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleJurassic;
+.
+  
+gsl1971:Malm
+  skos:prefLabel "Malm"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 125 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateJurassic;
+.
+  
+gsl1971:Neocomian
+  skos:prefLabel "Neocomian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 125;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyCretaceous;
+.
+  
+gsl1971:Senonian
+  skos:prefLabel "Senonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateCretaceous;
+.
+  
+gsl1971:EarlyPaleocene
+  skos:prefLabel "EarlyPaleocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleocene;
+.
+  
+gsl1971:LatePaleocene
+  skos:prefLabel "LatePaleocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Paleocene;
+.
+  
+gsl1971:EarlyEocene
+  skos:prefLabel "EarlyEocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Eocene;
+.
+  
+gsl1971:MiddleEocene
+  skos:prefLabel "MiddleEocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Eocene;
+.
+  
+gsl1971:LateEocene
+  skos:prefLabel "LateEocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Eocene;
+.
+  
+gsl1971:EarlyOligocene
+  skos:prefLabel "EarlyOligocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Oligocene;
+.
+  
+gsl1971:LateOligocene
+  skos:prefLabel "LateOligocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Oligocene;
+.
+  
+gsl1971:EarlyMiocene
+  skos:prefLabel "EarlyMiocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Miocene;
+.
+  
+gsl1971:MiddleMiocene
+  skos:prefLabel "MiddleMiocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Miocene;
+.
+  
+gsl1971:LateMiocene
+  skos:prefLabel "LateMiocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Miocene;
+.
+  
+gsl1971:EarlyPliocene
+  skos:prefLabel "EarlyPliocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Pliocene;
+.
+  
+gsl1971:LatePliocene
+  skos:prefLabel "LatePliocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 574 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Pliocene;
+.
+  
+gsl1971:Tommotian
+  skos:prefLabel "Tommotian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 574;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caerfai;
+.
+  
+gsl1971:Atdabanian
+  skos:prefLabel "Atdabanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caerfai;
+.
+  
+gsl1971:Lenian
+  skos:prefLabel "Lenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caerfai;
+.
+  
+gsl1971:Solvan
+  skos:prefLabel "Solvan"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:St_Davids;
+.
+  
+gsl1971:Menevian
+  skos:prefLabel "Menevian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:St_Davids;
+.
+  
+gsl1971:Maetwrogian
+  skos:prefLabel "Maetwrogian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Merioneth;
+.
+  
+gsl1971:Dolgellian
+  skos:prefLabel "Dolgellian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Merioneth;
+.
+  
+gsl1971:EarlyArenig
+  skos:prefLabel "EarlyArenig"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Arenig;
+.
+  
+gsl1971:LateArenig
+  skos:prefLabel "LateArenig"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Arenig;
+.
+  
+gsl1971:EarlyLlanvirn
+  skos:prefLabel "EarlyLlanvirn"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llanvirn;
+.
+  
+gsl1971:LateLlanvirn
+  skos:prefLabel "LateLlanvirn"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llanvirn;
+.
+  
+gsl1971:EarlyLlandeilo
+  skos:prefLabel "EarlyLlandeilo"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llandeilo;
+.
+  
+gsl1971:MiddleLlandeilo
+  skos:prefLabel "MiddleLlandeilo"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llandeilo;
+.
+  
+gsl1971:LateLlandeilo
+  skos:prefLabel "LateLlandeilo"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llandeilo;
+.
+  
+gsl1971:Costonian
+  skos:prefLabel "Costonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caradoc;
+.
+  
+gsl1971:Harnagian
+  skos:prefLabel "Harnagian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caradoc;
+.
+  
+gsl1971:Soudleyan
+  skos:prefLabel "Soudleyan"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caradoc;
+.
+  
+gsl1971:Longvillian
+  skos:prefLabel "Longvillian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caradoc;
+.
+  
+gsl1971:Marshbrookian
+  skos:prefLabel "Marshbrookian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caradoc;
+.
+  
+gsl1971:Actonian
+  skos:prefLabel "Actonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caradoc;
+.
+  
+gsl1971:Onnian
+  skos:prefLabel "Onnian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Caradoc;
+.
+  
+gsl1971:Pusgillian
+  skos:prefLabel "Pusgillian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ashgill;
+.
+  
+gsl1971:Cautleyan
+  skos:prefLabel "Cautleyan"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ashgill;
+.
+  
+gsl1971:Rawtheyan
+  skos:prefLabel "Rawtheyan"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ashgill;
+.
+  
+gsl1971:Hirnantian
+  skos:prefLabel "Hirnantian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ashgill;
+.
+  
+gsl1971:Rhuddanian
+  skos:prefLabel "Rhuddanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llandovery;
+.
+  
+gsl1971:Idwian
+  skos:prefLabel "Idwian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llandovery;
+.
+  
+gsl1971:Fronian
+  skos:prefLabel "Fronian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llandovery;
+.
+  
+gsl1971:Telychian
+  skos:prefLabel "Telychian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Llandovery;
+.
+  
+gsl1971:Sheinwoodian
+  skos:prefLabel "Sheinwoodian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Wenlock;
+.
+  
+gsl1971:Homerian
+  skos:prefLabel "Homerian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Wenlock;
+.
+  
+gsl1971:Gorstian
+  skos:prefLabel "Gorstian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 405 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ludlow;
+.
+  
+gsl1971:Ludfordian
+  skos:prefLabel "Ludfordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 405;
+  utf:start_uncertainty 0.0 ;
+  utf:end 405 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Ludlow;
+.
+  
+gsl1971:Gedinnian
+  skos:prefLabel "Gedinnian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 405;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyDevonian;
+.
+  
+gsl1971:Siegenian
+  skos:prefLabel "Siegenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyDevonian;
+.
+  
+gsl1971:Emsian
+  skos:prefLabel "Emsian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyDevonian;
+.
+  
+gsl1971:Eifelian
+  skos:prefLabel "Eifelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleDevonian;
+.
+  
+gsl1971:Givetian
+  skos:prefLabel "Givetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleDevonian;
+.
+  
+gsl1971:Frasnian
+  skos:prefLabel "Frasnian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 360 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateDevonian;
+.
+  
+gsl1971:Famennian
+  skos:prefLabel "Famennian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 360;
+  utf:start_uncertainty 0.0 ;
+  utf:end 360 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateDevonian;
+.
+  
+gsl1971:Hastarian
+  skos:prefLabel "Hastarian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 360;
+  utf:start_uncertainty 0.0 ;
+  utf:end 360 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Tournaisian;
+.
+  
+gsl1971:Ivorian
+  skos:prefLabel "Ivorian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 360;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Tournaisian;
+.
+  
+gsl1971:Chadian
+  skos:prefLabel "Chadian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Visean;
+.
+  
+gsl1971:Arundian
+  skos:prefLabel "Arundian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Visean;
+.
+  
+gsl1971:Holkerian
+  skos:prefLabel "Holkerian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Visean;
+.
+  
+gsl1971:Asbian
+  skos:prefLabel "Asbian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Visean;
+.
+  
+gsl1971:Brigantian
+  skos:prefLabel "Brigantian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Visean;
+.
+  
+gsl1971:Pendleian
+  skos:prefLabel "Pendleian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Serpukhovian;
+.
+  
+gsl1971:Arnsbergian
+  skos:prefLabel "Arnsbergian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Serpukhovian;
+.
+  
+gsl1971:Chokierian
+  skos:prefLabel "Chokierian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Serpukhovian;
+.
+  
+gsl1971:Alportian
+  skos:prefLabel "Alportian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Serpukhovian;
+.
+  
+gsl1971:Kinderscoutian
+  skos:prefLabel "Kinderscoutian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Bashkirian;
+.
+  
+gsl1971:Marsdenian
+  skos:prefLabel "Marsdenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Bashkirian;
+.
+  
+gsl1971:Yeadonian
+  skos:prefLabel "Yeadonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Bashkirian;
+.
+  
+gsl1971:Cheremshangskian
+  skos:prefLabel "Cheremshangskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Bashkirian;
+.
+  
+gsl1971:Melekesskian
+  skos:prefLabel "Melekesskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Bashkirian;
+.
+  
+gsl1971:Vereiskian
+  skos:prefLabel "Vereiskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Moscovian;
+.
+  
+gsl1971:Kashirskian
+  skos:prefLabel "Kashirskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Moscovian;
+.
+  
+gsl1971:Podoiskian
+  skos:prefLabel "Podoiskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Moscovian;
+.
+  
+gsl1971:Myachkovskian
+  skos:prefLabel "Myachkovskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Moscovian;
+.
+  
+gsl1971:Krevyakinsk
+  skos:prefLabel "Krevyakinsk"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Kasimovian;
+.
+  
+gsl1971:Chamovinicheskian
+  skos:prefLabel "Chamovinicheskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Kasimovian;
+.
+  
+gsl1971:Dorogomilovskian
+  skos:prefLabel "Dorogomilovskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Kasimovian;
+.
+  
+gsl1971:Kiazminskian
+  skos:prefLabel "Kiazminskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 276 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Gzelian;
+.
+  
+gsl1971:Noginskian
+  skos:prefLabel "Noginskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 276;
+  utf:start_uncertainty 0.0 ;
+  utf:end 276 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Gzelian;
+.
+  
+gsl1971:Asselian
+  skos:prefLabel "Asselian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 276;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyPermian;
+.
+  
+gsl1971:Sakmarian
+  skos:prefLabel "Sakmarian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyPermian;
+.
+  
+gsl1971:Artinskian
+  skos:prefLabel "Artinskian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyPermian;
+.
+  
+gsl1971:Kungurian
+  skos:prefLabel "Kungurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyPermian;
+.
+  
+gsl1971:Ufimian
+  skos:prefLabel "Ufimian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LatePermian;
+.
+  
+gsl1971:Kazanian
+  skos:prefLabel "Kazanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 235 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LatePermian;
+.
+  
+gsl1971:Tatarian
+  skos:prefLabel "Tatarian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 235;
+  utf:start_uncertainty 0.0 ;
+  utf:end 235 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LatePermian;
+.
+  
+gsl1971:Induan
+  skos:prefLabel "Induan"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 235;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyTriassic;
+.
+  
+gsl1971:Olenekian
+  skos:prefLabel "Olenekian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyTriassic;
+.
+  
+gsl1971:Anisian
+  skos:prefLabel "Anisian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleTriassic;
+.
+  
+gsl1971:Ladinian
+  skos:prefLabel "Ladinian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleTriassic;
+.
+  
+gsl1971:Carnian
+  skos:prefLabel "Carnian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateTriassic;
+.
+  
+gsl1971:Norian
+  skos:prefLabel "Norian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateTriassic;
+.
+  
+gsl1971:Rhaetian
+  skos:prefLabel "Rhaetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateTriassic;
+.
+  
+gsl1971:Hettangian
+  skos:prefLabel "Hettangian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyJurassic;
+.
+  
+gsl1971:Sinemurian
+  skos:prefLabel "Sinemurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyJurassic;
+.
+  
+gsl1971:Pliensbachian
+  skos:prefLabel "Pliensbachian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyJurassic;
+.
+  
+gsl1971:Toarcian
+  skos:prefLabel "Toarcian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyJurassic;
+.
+  
+gsl1971:Aalenian
+  skos:prefLabel "Aalenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleJurassic;
+.
+  
+gsl1971:Bajocian
+  skos:prefLabel "Bajocian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleJurassic;
+.
+  
+gsl1971:Bathonian
+  skos:prefLabel "Bathonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleJurassic;
+.
+  
+gsl1971:Callovian
+  skos:prefLabel "Callovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleJurassic;
+.
+  
+gsl1971:Oxfordian
+  skos:prefLabel "Oxfordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateJurassic;
+.
+  
+gsl1971:Kimmeridgian
+  skos:prefLabel "Kimmeridgian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 145 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateJurassic;
+.
+  
+gsl1971:Tithonian
+  skos:prefLabel "Tithonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 145;
+  utf:start_uncertainty 0.0 ;
+  utf:end 125 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateJurassic;
+.
+  
+gsl1971:Berriasian
+  skos:prefLabel "Berriasian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 125;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyCretaceous;
+.
+  
+gsl1971:Valanginian
+  skos:prefLabel "Valanginian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyCretaceous;
+.
+  
+gsl1971:Hauterivian
+  skos:prefLabel "Hauterivian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyCretaceous;
+.
+  
+gsl1971:Barremian
+  skos:prefLabel "Barremian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyCretaceous;
+.
+  
+gsl1971:Aptian
+  skos:prefLabel "Aptian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 95 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyCretaceous;
+.
+  
+gsl1971:Albian
+  skos:prefLabel "Albian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 95;
+  utf:start_uncertainty 0.0 ;
+  utf:end 95 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyCretaceous;
+.
+  
+gsl1971:Cenomanian
+  skos:prefLabel "Cenomanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 95;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateCretaceous;
+.
+  
+gsl1971:Turonian
+  skos:prefLabel "Turonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateCretaceous;
+.
+  
+gsl1971:Coniacian
+  skos:prefLabel "Coniacian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateCretaceous;
+.
+  
+gsl1971:Santonian
+  skos:prefLabel "Santonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateCretaceous;
+.
+  
+gsl1971:Campanian
+  skos:prefLabel "Campanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateCretaceous;
+.
+  
+gsl1971:Maastrichtian
+  skos:prefLabel "Maastrichtian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateCretaceous;
+.
+  
+gsl1971:Danian
+  skos:prefLabel "Danian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyPaleocene;
+.
+  
+gsl1971:Thanetian
+  skos:prefLabel "Thanetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LatePaleocene;
+.
+  
+gsl1971:Ypresian
+  skos:prefLabel "Ypresian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyEocene;
+.
+  
+gsl1971:Lutetian
+  skos:prefLabel "Lutetian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleEocene;
+.
+  
+gsl1971:Bartonian
+  skos:prefLabel "Bartonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleEocene;
+.
+  
+gsl1971:Priabonian
+  skos:prefLabel "Priabonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateEocene;
+.
+  
+gsl1971:Rupelian
+  skos:prefLabel "Rupelian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyOligocene;
+.
+  
+gsl1971:Chattian
+  skos:prefLabel "Chattian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateOligocene;
+.
+  
+gsl1971:Aquitanian
+  skos:prefLabel "Aquitanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyMiocene;
+.
+  
+gsl1971:Burdigalian
+  skos:prefLabel "Burdigalian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyMiocene;
+.
+  
+gsl1971:EarlyLanghian
+  skos:prefLabel "EarlyLanghian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyMiocene;
+.
+  
+gsl1971:LateLanghian
+  skos:prefLabel "LateLanghian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleMiocene;
+.
+  
+gsl1971:Serravallian
+  skos:prefLabel "Serravallian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:MiddleMiocene;
+.
+  
+gsl1971:Tortonian
+  skos:prefLabel "Tortonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateMiocene;
+.
+  
+gsl1971:Messinian
+  skos:prefLabel "Messinian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LateMiocene;
+.
+  
+gsl1971:Zanclian
+  skos:prefLabel "Zanclian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:EarlyPliocene;
+.
+  
+gsl1971:Piacenzian
+  skos:prefLabel "Piacenzian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:LatePliocene;
+.
+  
+gsl1971:Griesbachian
+  skos:prefLabel "Griesbachian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Induan;
+.
+  
+gsl1971:Dienerian
+  skos:prefLabel "Dienerian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Induan;
+.
+  
+gsl1971:Smithian
+  skos:prefLabel "Smithian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Olenekian;
+.
+  
+gsl1971:Spathian
+  skos:prefLabel "Spathian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 0.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  gsl1971:GSL1971_GTS1982;
+  utf:partOf gsl1971:Olenekian;
+.
+  

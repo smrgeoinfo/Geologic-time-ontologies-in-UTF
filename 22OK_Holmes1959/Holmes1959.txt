@@ -1,0 +1,7 @@
+Holmes1959
+
+Holmes1947A means " A Geologic Time Scale 1947A", which has 124 triples. Covers the geological duration from 0 to 600 Ma. Includes 15 Geochronologic era
+ (Pleistocene, Pliocene, Miocene, Oligocene, Eocene, Paleocene, Cretaceous, Jurassic, Triassic, Premian, Carboniferous, Devonian, Silurian, Ordovician	, Cambrian) in total. 
+"The Geological time scale based on the most probable ages of radioactive minerals and the maximum thicknesses of the geological Systems. 
+Holmes proposed two scales in an article,named the time-scales A and B . Scale B is regarded as the more probable of the two."
+Cited from (Holmes A. A revised geological time-scale[J]. Transactions of the Edinburgh Geological Society, 1959, 17(3): 183-216.)

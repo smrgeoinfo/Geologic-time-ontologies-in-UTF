@@ -1,0 +1,6 @@
+KG1985
+
+KG1985 means " Cretaceous and Jurassic Time Scale 1985", which has 210 triples. Covers the geological duration from 208 to 66.5 Ma. Includes 23 Geochronologic era
+ (Hettangian, Singemurian, Pliensbachian, Toarcian, Aalenian, Bajocian, Bathonian, Callovian, Oxfordian, Kimmeridgian, Tithonian, Berriasian, Valanginian, Hauterivian, Barremian
+, Aptian, Albian, Cenomanian, Turonian, Coniacian, Santonian, Campanian, Maastrichtian) in total. 
+Cited from (Kent D V, Gradstein F M. A Cretaceous and Jurassic geochronology[J]. Geological Society of America Bulletin, 1985, 96(11): 1419-1427.)

@@ -1,0 +1,178 @@
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix holmes1959:<https://www.ddeworld.org/ddeKG/base/utf/holmes1959#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+holmes1959:Holmes1959
+  rdf:type utf:reference_system ;
+  skos:prefLabel "A Geologic Time Scale 1959"@en ;
+  #需要补充参考文献
+  dc:contributor "Holmes A. A revised geological time-scale[J]. Transactions of the Edinburgh Geological Society, 1959, 17(3): 183-216."@en ;
+.
+
+holmes1959:Pleistocene
+  skos:prefLabel "Pleistocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 1;
+  utf:start_uncertainty 0.0 ;
+  utf:end 0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Pliocene
+  skos:prefLabel "Pliocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 11;
+  utf:start_uncertainty 0.0 ;
+  utf:end 1 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Miocene
+  skos:prefLabel "Miocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 25;
+  utf:start_uncertainty 0.0 ;
+  utf:end 11 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Oligocene
+  skos:prefLabel "Oligocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 40;
+  utf:start_uncertainty 0.0 ;
+  utf:end 25 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Eocene
+  skos:prefLabel "Eocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 60;
+  utf:start_uncertainty 0.0 ;
+  utf:end 40 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+
+holmes1959:Paleocene
+  skos:prefLabel "Eocene"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 70;
+  utf:start_uncertainty 2 ;
+  utf:end 60 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+
+holmes1959:Cretaceous#有早晚划分无年龄
+  skos:prefLabel "Cretaceous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 135;
+  utf:start_uncertainty 5 ;
+  utf:end 70 ;
+  utf:end_uncertainty 2 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Jurassic
+  skos:prefLabel "Jurassic"@en ;#有早中晚的划分无年龄
+  rdf:type utf:Interval_time ;
+  utf:start 180;
+  utf:start_uncertainty 5 ;
+  utf:end 135 ;
+  utf:end_uncertainty 5 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Triassic
+  skos:prefLabel "Triassic"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 225;
+  utf:start_uncertainty 5 ;
+  utf:end 180 ;
+  utf:end_uncertainty 5 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Premian
+  skos:prefLabel "Premian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 270;
+  utf:start_uncertainty 5 ;
+  utf:end 225 ;
+  utf:end_uncertainty 5 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Carboniferous#有早晚划分无年龄值
+  skos:prefLabel "Carboniferous"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 350;
+  utf:start_uncertainty 10 ;
+  utf:end 270 ;
+  utf:end_uncertainty 5 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Devonian
+  skos:prefLabel "Devonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 400;
+  utf:start_uncertainty 10 ;
+  utf:end 350 ;
+  utf:end_uncertainty 10 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Silurian
+  skos:prefLabel "Silurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 440;
+  utf:start_uncertainty 10 ;
+  utf:end 400 ;
+  utf:end_uncertainty 10 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Ordovician
+  skos:prefLabel "Ordovician"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 500;
+  utf:start_uncertainty 15 ;
+  utf:end 440 ;
+  utf:end_uncertainty 10 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  
+holmes1959:Cambrian
+  skos:prefLabel "Cambrian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 600 ;
+  utf:start_uncertainty 20 ;
+  utf:end 500 ;
+  utf:end_uncertainty 15 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system  holmes1959:Holmes1959;
+.
+  

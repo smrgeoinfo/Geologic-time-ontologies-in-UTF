@@ -1,0 +1,260 @@
+
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf#> .
+@prefix kg1985: <https://www.ddeworld.org/ddeKG/base/utf/kg1985#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/#> .
+
+
+kg1985:Hettangian
+  skos:prefLabel "Hettangian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 208.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 204.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Singemurian
+  skos:prefLabel "Singemurian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 204.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 198.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Pliensbachian
+  skos:prefLabel "Pliensbachian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 198.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 193.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Toarcian
+  skos:prefLabel "Toarcian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 193.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 187.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Aalenian
+  skos:prefLabel "Aalenian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 187.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 183.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Bajocian
+  skos:prefLabel "Bajocian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 183.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 176.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Bathonian
+  skos:prefLabel "Bathonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 176.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 169.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Callovian
+  skos:prefLabel "Callovian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 169.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 163.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Oxfordian
+  skos:prefLabel "Oxfordian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 163.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 156.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Kimmeridgian
+  skos:prefLabel "Kimmeridgian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 156.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 152.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Tithonian
+  skos:prefLabel "Tithonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 152.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 144.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Berriasian
+  skos:prefLabel "Berriasian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 144.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 138.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Valanginian
+  skos:prefLabel "Valanginian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 138.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 131.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Hauterivian
+  skos:prefLabel "Hauterivian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 131.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 124.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Barremian
+  skos:prefLabel "Barremian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 124.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 119.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Aptian
+  skos:prefLabel "Aptian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 119.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 113.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Albian
+  skos:prefLabel "Albian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 113.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 97.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Cenomanian
+  skos:prefLabel "Cenomanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 97.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 91.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Turonian
+  skos:prefLabel "Turonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 91.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 88.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Coniacian
+  skos:prefLabel "Coniacian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 88.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 87.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Santonian
+  skos:prefLabel "Santonian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 87.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 84.0 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Campanian
+  skos:prefLabel "Campanian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 84.0;
+  utf:start_uncertainty 0.0 ;
+  utf:end 74.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.
+  
+kg1985:Maastrichtian
+  skos:prefLabel "Maastrichtian"@en ;
+  rdf:type utf:Interval_time ;
+  utf:start 74.5;
+  utf:start_uncertainty 0.0 ;
+  utf:end 66.5 ;
+  utf:end_uncertainty 0.0 ;
+  utf:unit "Ma"@en ;
+  utf:reference_system kg1985:KG1985 ;
+.

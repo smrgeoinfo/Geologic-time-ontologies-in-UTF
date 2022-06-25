@@ -1,0 +1,4 @@
+ICS200512
+
+ICS200512 means "International Chronostratigraphic Chart (2005)", which has 1453 triples. Covers the geological duration from 0 to 3600 Ma. 
+Cited from (International Commission on Stratigraphy/Original version Copyright © 2005 International Commission on Stratigraphy)

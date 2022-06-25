@@ -1,0 +1,5 @@
+GSL1964new_GTS1982
+
+GSL1964new_GTS1982 means " A Geologic Time Scale 1964", which has 1794 triples. Covers the geological duration from 0 to 579 Ma. Includes 199 Geochronologic era in total. 
+Some Phanerozoic time scales are exemplified in Harland's article（Harland，1982）, and this is one of them.
+Cited from (Harland,W.B.,Cox,A.V.,Llewellyn,P.G.,Pickton,C.A.G.,Smith,A.G.&Walters,R.1982.A Geologic Time Scale 1982.Cambridge University Press.)

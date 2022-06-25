@@ -1,0 +1,6 @@
+PTSICC_GSL1982
+
+PTSICC_GSL1982 means " A Geologic Time Scale 1976", which has 867 triples. Covers the geological duration from 0 to 520-610 Ma. Includes 97 Geochronologic era in total. 
+"PTS (altered somewhat from the original values to acknowledge the changes that the 1976 constants - ICC - could make)."
+Some Phanerozoic time scales are exemplified in Harland's article（Harland，1983）, and this is one of them.
+Cited from (Harland W B. More time scales[J]. Geological Magazine, 1983, 120(4): 393-400.)
