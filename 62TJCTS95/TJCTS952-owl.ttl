@@ -1,0 +1,381 @@
+# baseURI: https://www.ddeworld.org/ddeKG/base/utf/tjcts95#TJCTS95
+# imports: https://www.ddeworld.org/ddeKG/base/utf/Time
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tjcts95: <https://www.ddeworld.org/ddeKG/base/utf/tjcts95#> .
+@prefix utf: <https://www.ddeworld.org/ddeKG/base/utf/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tjcts95:TJCTS95
+  rdf:type owl:Ontology ;
+  rdf:type utf:Time_reference ;
+  dc:contributor "All records are constructed by Dr. Yanmin Qi, 12/30/2021, applying in DDE program (Deep-time Digital Earth IUGS Big Science Program)."@en ;
+  <http://purl.org/dc/elements/1.1/source> "not specified"@en ;
+  owl:imports utf:Time ;
+  skos:historyNote "2023-11-27 S.M.Richard convert  tjcts95:TJCTS95 to owl:ontology, utf:Time_reference, import UTFowl.ttl in this repo to use owl converted UTF schema."@en ;
+  skos:prefLabel "Triassic, Jurassic and Cretaceous Time Scale 1995"@en ;
+.
+tjcts95:aalenian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "aalenian"@en ;
+  utf:end 176.5 ;
+  utf:end_uncertainty 4.0 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 180.1 ;
+  utf:start_uncertainty 4.0 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:albian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "albian"@en ;
+  utf:end 98.9 ;
+  utf:end_uncertainty 0.6 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 112.2 ;
+  utf:start_uncertainty 1.1 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:anisian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "anisian"@en ;
+  utf:end 234.3 ;
+  utf:end_uncertainty 7.4 ;
+  utf:partOf tjcts95:triassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 241.7 ;
+  utf:start_uncertainty 3.1 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:aptian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "aptian"@en ;
+  utf:end 112.2 ;
+  utf:end_uncertainty 1.1 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 121.0 ;
+  utf:start_uncertainty 1.4 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:bajocian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "bajocian"@en ;
+  utf:end 169.2 ;
+  utf:end_uncertainty 4.0 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 176.5 ;
+  utf:start_uncertainty 4.0 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:barremian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "barremian"@en ;
+  utf:end 121.0 ;
+  utf:end_uncertainty 1.4 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 127.0 ;
+  utf:start_uncertainty 1.6 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:bathonian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "bathonian"@en ;
+  utf:end 164.4 ;
+  utf:end_uncertainty 3.8 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 169.2 ;
+  utf:start_uncertainty 4.0 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:berriasian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "berriasian"@en ;
+  utf:end 137.0 ;
+  utf:end_uncertainty 2.2 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 144.2 ;
+  utf:start_uncertainty 2.6 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:callovian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "callovian"@en ;
+  utf:end 159.4 ;
+  utf:end_uncertainty 3.6 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 164.4 ;
+  utf:start_uncertainty 3.8 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:campanian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "campanian"@en ;
+  utf:end 71.3 ;
+  utf:end_uncertainty 0.5 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 83.5 ;
+  utf:start_uncertainty 0.5 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:carnian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "carnian"@en ;
+  utf:end 220.7 ;
+  utf:end_uncertainty 6.7 ;
+  utf:partOf tjcts95:triassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 227.4 ;
+  utf:start_uncertainty 6.9 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:cenomanian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "cenomanian"@en ;
+  utf:end 93.5 ;
+  utf:end_uncertainty 0.2 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 98.9 ;
+  utf:start_uncertainty 0.6 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:coniacian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "coniacian"@en ;
+  utf:end 85.8 ;
+  utf:end_uncertainty 0.5 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 89.0 ;
+  utf:start_uncertainty 0.5 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:cretaceous
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "cretaceous"@en ;
+  utf:end 65.0 ;
+  utf:end_uncertainty 0.1 ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 144.2 ;
+  utf:start_uncertainty 2.6 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:hauterivian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "hauterivian"@en ;
+  utf:end 127.0 ;
+  utf:end_uncertainty 1.6 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 132.0 ;
+  utf:start_uncertainty 1.9 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:hettangian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "hettangian"@en ;
+  utf:end 201.9 ;
+  utf:end_uncertainty 3.9 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 205.7 ;
+  utf:start_uncertainty 4.0 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:induan
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "induan"@en ;
+  utf:end 244.8 ;
+  utf:end_uncertainty 3.4 ;
+  utf:partOf tjcts95:triassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 248.2 ;
+  utf:start_uncertainty 4.8 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:jurassic
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "jurassic"@en ;
+  utf:end 144.2 ;
+  utf:end_uncertainty 2.6 ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 205.7 ;
+  utf:start_uncertainty 4.0 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:kimmeridgian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "kimmeridgian"@en ;
+  utf:end 150.7 ;
+  utf:end_uncertainty 3.0 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 154.1 ;
+  utf:start_uncertainty 3.2 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:ladinian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "ladinian"@en ;
+  utf:end 227.4 ;
+  utf:end_uncertainty 6.9 ;
+  utf:partOf tjcts95:triassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 234.3 ;
+  utf:start_uncertainty 7.4 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:maastrichtian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "maastrichtian"@en ;
+  utf:end 65.0 ;
+  utf:end_uncertainty 0.1 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 71.3 ;
+  utf:start_uncertainty 0.5 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:norian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "norian"@en ;
+  utf:end 209.6 ;
+  utf:end_uncertainty 4.1 ;
+  utf:partOf tjcts95:triassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 220.7 ;
+  utf:start_uncertainty 6.7 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:olenekian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "olenekian"@en ;
+  utf:end 241.7 ;
+  utf:end_uncertainty 3.1 ;
+  utf:partOf tjcts95:triassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 244.8 ;
+  utf:start_uncertainty 3.4 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:oxfordian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "oxfordian"@en ;
+  utf:end 154.1 ;
+  utf:end_uncertainty 3.2 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 159.4 ;
+  utf:start_uncertainty 3.6 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:pliensbachian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "pliensbachian"@en ;
+  utf:end 189.6 ;
+  utf:end_uncertainty 4.0 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 195.3 ;
+  utf:start_uncertainty 3.9 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:rhaetian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "rhaetian"@en ;
+  utf:end 205.7 ;
+  utf:end_uncertainty 4.0 ;
+  utf:partOf tjcts95:triassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 209.6 ;
+  utf:start_uncertainty 4.1 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:santonian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "santonian"@en ;
+  utf:end 83.5 ;
+  utf:end_uncertainty 0.5 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 85.8 ;
+  utf:start_uncertainty 0.5 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:sinemurian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "sinemurian"@en ;
+  utf:end 195.3 ;
+  utf:end_uncertainty 3.9 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 201.9 ;
+  utf:start_uncertainty 3.9 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:tithonian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "tithonian"@en ;
+  utf:end 144.2 ;
+  utf:end_uncertainty 2.6 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 150.7 ;
+  utf:start_uncertainty 3.0 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:toarcian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "toarcian"@en ;
+  utf:end 180.1 ;
+  utf:end_uncertainty 4.0 ;
+  utf:partOf tjcts95:jurassic ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 189.6 ;
+  utf:start_uncertainty 4.0 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:triassic
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "triassic"@en ;
+  utf:end 205.7 ;
+  utf:end_uncertainty 4.0 ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 248.2 ;
+  utf:start_uncertainty 4.8 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:turonian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "turonian"@en ;
+  utf:end 89.0 ;
+  utf:end_uncertainty 0.5 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 93.5 ;
+  utf:start_uncertainty 0.2 ;
+  utf:unit "Ma"@en ;
+.
+tjcts95:valanginian
+  rdf:type utf:Interval_time ;
+  skos:prefLabel "valanginian"@en ;
+  utf:end 132.0 ;
+  utf:end_uncertainty 1.9 ;
+  utf:partOf tjcts95:cretaceous ;
+  utf:reference_system tjcts95:TJCTS95 ;
+  utf:start 137.0 ;
+  utf:start_uncertainty 2.2 ;
+  utf:unit "Ma"@en ;
+.
